@@ -1,474 +1,1729 @@
-[
-  {
-    "terrain": "phang",
-    "seed": 932114,
-    "passed": true,
-    "checks": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "motion": {
-      "dung": {
-        "dx": -0.0115,
-        "turn": -0.0,
-        "head_range": 0.0,
-        "speed_end": 0.0001
-      },
-      "di": {
-        "dx": 0.1942,
-        "turn": 0.001,
-        "head_range": 0.001,
-        "speed_end": 0.1513
-      },
-      "nhanh": {
-        "dx": 0.4493,
-        "turn": -0.0,
-        "head_range": 0.001,
-        "speed_end": 0.2319
-      },
-      "trai": {
-        "dx": 0.1509,
-        "turn": 0.57,
-        "head_range": 0.001,
-        "speed_end": 0.1866
-      },
-      "phai": {
-        "dx": 0.1567,
-        "turn": -0.571,
-        "head_range": 0.001,
-        "speed_end": 0.1063
-      },
-      "chao": {
-        "dx": 0.1552,
-        "turn": -0.0,
-        "head_range": 0.346,
-        "speed_end": 0.1869
-      },
-      "lui": {
-        "dx": -0.1778,
-        "turn": 0.0,
-        "head_range": 0.001,
-        "speed_end": 0.0672
+{
+  "model": "Microduck-GLB-v2",
+  "source_sha256": "0c837e57c6cde85bbfb5e1e0badb9e9f6b3fe3c118e5c5f501beb083cbcf08d9",
+  "original_height_m": 0.2607738954247907,
+  "max_pivot_error_m": 1.1336507114384377e-07,
+  "passed": 20,
+  "rows": [
+    {
+      "terrain": "phang",
+      "seed": 810001,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.51,
+      "commands": {
+        "dung": [
+          {
+            "dx": 0.0005,
+            "dy": -0.0,
+            "speed_end": 0.0001,
+            "gaze": 0.0,
+            "nod_peak": 0.003
+          },
+          {
+            "dx": 0.0072,
+            "dy": 0.0037,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0027,
+            "dy": -0.0022,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0467,
+            "dy": -0.001,
+            "speed_end": 0.0797,
+            "gaze": -0.0,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0111,
+            "dy": 0.0031,
+            "speed_end": 0.0147,
+            "gaze": 0.469,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.011,
+            "dy": -0.0067,
+            "speed_end": 0.045,
+            "gaze": -0.467,
+            "nod_peak": 0.005
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.077,
+            "dy": 0.0066,
+            "speed_end": 0.1315,
+            "gaze": -0.47,
+            "nod_peak": 0.007
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.032,
+            "dy": -0.0051,
+            "speed_end": 0.0253,
+            "gaze": 0.001,
+            "nod_peak": 0.216
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.053,
+            "dy": 0.0037,
+            "speed_end": 0.0607,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "phang",
+      "seed": 810193,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.56,
+      "commands": {
+        "dung": [
+          {
+            "dx": 0.0004,
+            "dy": -0.0,
+            "speed_end": 0.0004,
+            "gaze": 0.0,
+            "nod_peak": 0.003
+          },
+          {
+            "dx": 0.0072,
+            "dy": 0.0024,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0028,
+            "dy": -0.0021,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0477,
+            "dy": -0.0013,
+            "speed_end": 0.073,
+            "gaze": 0.0,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0109,
+            "dy": 0.0027,
+            "speed_end": 0.0122,
+            "gaze": 0.469,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0109,
+            "dy": -0.0064,
+            "speed_end": 0.0594,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0797,
+            "dy": 0.0012,
+            "speed_end": 0.1247,
+            "gaze": -0.47,
+            "nod_peak": 0.007
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0326,
+            "dy": -0.0102,
+            "speed_end": 0.0169,
+            "gaze": 0.001,
+            "nod_peak": 0.216
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0528,
+            "dy": 0.0037,
+            "speed_end": 0.0597,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "phang",
+      "seed": 810377,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.58,
+      "commands": {
+        "dung": [
+          {
+            "dx": 0.0004,
+            "dy": -0.0,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.002
+          },
+          {
+            "dx": 0.0067,
+            "dy": 0.0038,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.005
+          },
+          {
+            "dx": -0.0027,
+            "dy": -0.0023,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0457,
+            "dy": -0.0003,
+            "speed_end": 0.0849,
+            "gaze": 0.0,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0112,
+            "dy": 0.003,
+            "speed_end": 0.0123,
+            "gaze": 0.469,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0112,
+            "dy": -0.0065,
+            "speed_end": 0.0524,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0799,
+            "dy": 0.0011,
+            "speed_end": 0.1427,
+            "gaze": -0.47,
+            "nod_peak": 0.007
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0323,
+            "dy": -0.0026,
+            "speed_end": 0.028,
+            "gaze": 0.002,
+            "nod_peak": 0.216
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0522,
+            "dy": 0.0032,
+            "speed_end": 0.0637,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "phang",
+      "seed": 810451,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.6,
+      "commands": {
+        "dung": [
+          {
+            "dx": 0.0004,
+            "dy": 0.0,
+            "speed_end": 0.0007,
+            "gaze": 0.0,
+            "nod_peak": 0.003
+          },
+          {
+            "dx": 0.0078,
+            "dy": 0.0027,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0024,
+            "dy": -0.0026,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0486,
+            "dy": -0.0007,
+            "speed_end": 0.085,
+            "gaze": -0.001,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0113,
+            "dy": 0.0023,
+            "speed_end": 0.0165,
+            "gaze": 0.47,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0115,
+            "dy": -0.0064,
+            "speed_end": 0.0559,
+            "gaze": -0.467,
+            "nod_peak": 0.005
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0788,
+            "dy": -0.0029,
+            "speed_end": 0.1134,
+            "gaze": -0.471,
+            "nod_peak": 0.007
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0301,
+            "dy": -0.0071,
+            "speed_end": 0.027,
+            "gaze": 0.002,
+            "nod_peak": 0.216
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0539,
+            "dy": 0.007,
+            "speed_end": 0.0545,
+            "gaze": 0.002,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "phang",
+      "seed": 430763,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.59,
+      "commands": {
+        "dung": [
+          {
+            "dx": 0.0004,
+            "dy": -0.0,
+            "speed_end": 0.0,
+            "gaze": 0.0,
+            "nod_peak": 0.002
+          },
+          {
+            "dx": 0.0068,
+            "dy": 0.004,
+            "speed_end": 0.0,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0025,
+            "dy": -0.0022,
+            "speed_end": 0.0,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.046,
+            "dy": 0.0005,
+            "speed_end": 0.0878,
+            "gaze": 0.0,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0104,
+            "dy": 0.0021,
+            "speed_end": 0.022,
+            "gaze": 0.469,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0106,
+            "dy": -0.0062,
+            "speed_end": 0.0566,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0778,
+            "dy": 0.005,
+            "speed_end": 0.1383,
+            "gaze": -0.47,
+            "nod_peak": 0.007
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.033,
+            "dy": -0.004,
+            "speed_end": 0.0071,
+            "gaze": 0.002,
+            "nod_peak": 0.217
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0526,
+            "dy": 0.0021,
+            "speed_end": 0.0572,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "tron",
+      "seed": 810001,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.32,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0001,
+            "dy": -0.0001,
+            "speed_end": 0.003,
+            "gaze": 0.0,
+            "nod_peak": 0.002
+          },
+          {
+            "dx": 0.0115,
+            "dy": -0.0003,
+            "speed_end": 0.0108,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0022,
+            "dy": -0.0023,
+            "speed_end": 0.0036,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.071,
+            "dy": -0.0007,
+            "speed_end": 0.0516,
+            "gaze": -0.0,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0165,
+            "dy": -0.0005,
+            "speed_end": 0.0591,
+            "gaze": 0.468,
+            "nod_peak": 0.004
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0175,
+            "dy": -0.0045,
+            "speed_end": 0.0593,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.1311,
+            "dy": 0.0092,
+            "speed_end": 0.0591,
+            "gaze": -0.471,
+            "nod_peak": 0.006
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0518,
+            "dy": -0.0016,
+            "speed_end": 0.0572,
+            "gaze": 0.001,
+            "nod_peak": 0.217
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0551,
+            "dy": 0.0031,
+            "speed_end": 0.0485,
+            "gaze": 0.002,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "tron",
+      "seed": 810193,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.32,
+      "commands": {
+        "dung": [
+          {
+            "dx": 0.0003,
+            "dy": -0.0001,
+            "speed_end": 0.002,
+            "gaze": -0.0,
+            "nod_peak": 0.003
+          },
+          {
+            "dx": 0.0127,
+            "dy": 0.0007,
+            "speed_end": 0.0057,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.003,
+            "dy": -0.0027,
+            "speed_end": 0.0028,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0697,
+            "dy": 0.0008,
+            "speed_end": 0.0502,
+            "gaze": -0.001,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.017,
+            "dy": -0.0006,
+            "speed_end": 0.0511,
+            "gaze": 0.469,
+            "nod_peak": 0.004
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0178,
+            "dy": -0.003,
+            "speed_end": 0.0514,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.1393,
+            "dy": 0.0045,
+            "speed_end": 0.0682,
+            "gaze": -0.471,
+            "nod_peak": 0.006
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0507,
+            "dy": -0.0053,
+            "speed_end": 0.0917,
+            "gaze": 0.001,
+            "nod_peak": 0.217
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0547,
+            "dy": 0.0019,
+            "speed_end": 0.0466,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "tron",
+      "seed": 810377,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.22,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0,
+            "dy": -0.0,
+            "speed_end": 0.0071,
+            "gaze": -0.0,
+            "nod_peak": 0.003
+          },
+          {
+            "dx": 0.0104,
+            "dy": 0.0008,
+            "speed_end": 0.007,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0032,
+            "dy": -0.0025,
+            "speed_end": 0.0045,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0697,
+            "dy": 0.0013,
+            "speed_end": 0.0456,
+            "gaze": -0.001,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0168,
+            "dy": 0.0005,
+            "speed_end": 0.0739,
+            "gaze": 0.469,
+            "nod_peak": 0.004
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0178,
+            "dy": -0.0055,
+            "speed_end": 0.0618,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.1255,
+            "dy": 0.0069,
+            "speed_end": 0.0778,
+            "gaze": -0.471,
+            "nod_peak": 0.006
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0529,
+            "dy": -0.006,
+            "speed_end": 0.0751,
+            "gaze": 0.001,
+            "nod_peak": 0.216
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0558,
+            "dy": 0.0014,
+            "speed_end": 0.0473,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "tron",
+      "seed": 810451,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.26,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0004,
+            "dy": -0.0001,
+            "speed_end": 0.0051,
+            "gaze": 0.0,
+            "nod_peak": 0.003
+          },
+          {
+            "dx": 0.0137,
+            "dy": -0.0001,
+            "speed_end": 0.0086,
+            "gaze": 0.0,
+            "nod_peak": 0.005
+          },
+          {
+            "dx": -0.0026,
+            "dy": -0.0026,
+            "speed_end": 0.0073,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0716,
+            "dy": -0.0012,
+            "speed_end": 0.0504,
+            "gaze": -0.001,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0183,
+            "dy": -0.0001,
+            "speed_end": 0.0546,
+            "gaze": 0.468,
+            "nod_peak": 0.004
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0186,
+            "dy": -0.0036,
+            "speed_end": 0.0534,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.1412,
+            "dy": 0.0081,
+            "speed_end": 0.0646,
+            "gaze": -0.471,
+            "nod_peak": 0.006
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0549,
+            "dy": -0.0023,
+            "speed_end": 0.0631,
+            "gaze": 0.001,
+            "nod_peak": 0.216
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0555,
+            "dy": 0.0023,
+            "speed_end": 0.0454,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "tron",
+      "seed": 430763,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.31,
+      "commands": {
+        "dung": [
+          {
+            "dx": 0.0,
+            "dy": -0.0,
+            "speed_end": 0.0065,
+            "gaze": 0.0,
+            "nod_peak": 0.003
+          },
+          {
+            "dx": 0.0111,
+            "dy": 0.0007,
+            "speed_end": 0.0044,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0031,
+            "dy": -0.0028,
+            "speed_end": 0.0045,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0715,
+            "dy": -0.0005,
+            "speed_end": 0.0572,
+            "gaze": -0.001,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0161,
+            "dy": 0.002,
+            "speed_end": 0.0584,
+            "gaze": 0.468,
+            "nod_peak": 0.004
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0182,
+            "dy": -0.0048,
+            "speed_end": 0.0501,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.1205,
+            "dy": 0.0133,
+            "speed_end": 0.0738,
+            "gaze": -0.47,
+            "nod_peak": 0.006
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.049,
+            "dy": -0.0028,
+            "speed_end": 0.0725,
+            "gaze": 0.001,
+            "nod_peak": 0.217
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0577,
+            "dy": -0.002,
+            "speed_end": 0.0489,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "doc",
+      "seed": 810001,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.57,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0006,
+            "dy": -0.0,
+            "speed_end": 0.0024,
+            "gaze": 0.0,
+            "nod_peak": 0.005
+          },
+          {
+            "dx": 0.0062,
+            "dy": 0.0024,
+            "speed_end": 0.0016,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0035,
+            "dy": -0.0026,
+            "speed_end": 0.0019,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0305,
+            "dy": -0.0013,
+            "speed_end": 0.0808,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0055,
+            "dy": 0.0014,
+            "speed_end": 0.0269,
+            "gaze": 0.47,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0073,
+            "dy": -0.0057,
+            "speed_end": 0.0613,
+            "gaze": -0.467,
+            "nod_peak": 0.005
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0695,
+            "dy": 0.0128,
+            "speed_end": 0.1416,
+            "gaze": -0.47,
+            "nod_peak": 0.008
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0277,
+            "dy": -0.0029,
+            "speed_end": 0.0497,
+            "gaze": 0.002,
+            "nod_peak": 0.217
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0636,
+            "dy": 0.0033,
+            "speed_end": 0.0594,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "doc",
+      "seed": 810193,
+      "passed": true,
+      "fall": false,
+      "tilt": 2.91,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0004,
+            "dy": -0.0,
+            "speed_end": 0.0013,
+            "gaze": 0.0,
+            "nod_peak": 0.004
+          },
+          {
+            "dx": 0.0063,
+            "dy": 0.0014,
+            "speed_end": 0.0003,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0037,
+            "dy": -0.0017,
+            "speed_end": 0.0003,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0334,
+            "dy": -0.0029,
+            "speed_end": 0.0917,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0073,
+            "dy": 0.0013,
+            "speed_end": 0.0366,
+            "gaze": 0.47,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0087,
+            "dy": -0.0066,
+            "speed_end": 0.0487,
+            "gaze": -0.467,
+            "nod_peak": 0.005
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0675,
+            "dy": -0.0027,
+            "speed_end": 0.1442,
+            "gaze": -0.47,
+            "nod_peak": 0.009
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0285,
+            "dy": -0.0058,
+            "speed_end": 0.0468,
+            "gaze": 0.002,
+            "nod_peak": 0.217
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0619,
+            "dy": 0.0061,
+            "speed_end": 0.056,
+            "gaze": 0.002,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "doc",
+      "seed": 810377,
+      "passed": true,
+      "fall": false,
+      "tilt": 3.39,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0007,
+            "dy": -0.0,
+            "speed_end": 0.0004,
+            "gaze": 0.0,
+            "nod_peak": 0.005
+          },
+          {
+            "dx": 0.0056,
+            "dy": 0.0018,
+            "speed_end": 0.0004,
+            "gaze": -0.0,
+            "nod_peak": 0.007
+          },
+          {
+            "dx": -0.0041,
+            "dy": -0.0027,
+            "speed_end": 0.0004,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0307,
+            "dy": -0.0013,
+            "speed_end": 0.0905,
+            "gaze": 0.001,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0072,
+            "dy": 0.0026,
+            "speed_end": 0.022,
+            "gaze": 0.469,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0071,
+            "dy": -0.0061,
+            "speed_end": 0.0527,
+            "gaze": -0.467,
+            "nod_peak": 0.005
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0637,
+            "dy": -0.006,
+            "speed_end": 0.1332,
+            "gaze": -0.47,
+            "nod_peak": 0.009
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.026,
+            "dy": -0.0095,
+            "speed_end": 0.0447,
+            "gaze": 0.001,
+            "nod_peak": 0.217
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0624,
+            "dy": 0.0097,
+            "speed_end": 0.0663,
+            "gaze": 0.002,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "doc",
+      "seed": 810451,
+      "passed": true,
+      "fall": false,
+      "tilt": 3.46,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0003,
+            "dy": -0.0,
+            "speed_end": 0.0013,
+            "gaze": 0.0,
+            "nod_peak": 0.004
+          },
+          {
+            "dx": 0.0056,
+            "dy": 0.0015,
+            "speed_end": 0.0003,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0042,
+            "dy": -0.0031,
+            "speed_end": 0.0003,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0345,
+            "dy": -0.0022,
+            "speed_end": 0.0754,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0075,
+            "dy": 0.0016,
+            "speed_end": 0.0239,
+            "gaze": 0.469,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0077,
+            "dy": -0.0061,
+            "speed_end": 0.0526,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0687,
+            "dy": -0.0058,
+            "speed_end": 0.1312,
+            "gaze": -0.47,
+            "nod_peak": 0.01
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0228,
+            "dy": -0.0125,
+            "speed_end": 0.0264,
+            "gaze": 0.001,
+            "nod_peak": 0.218
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.062,
+            "dy": 0.01,
+            "speed_end": 0.055,
+            "gaze": 0.002,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "doc",
+      "seed": 430763,
+      "passed": true,
+      "fall": false,
+      "tilt": 3.14,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0007,
+            "dy": -0.0,
+            "speed_end": 0.0005,
+            "gaze": 0.0,
+            "nod_peak": 0.005
+          },
+          {
+            "dx": 0.0049,
+            "dy": 0.0025,
+            "speed_end": 0.0005,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0037,
+            "dy": -0.0023,
+            "speed_end": 0.0005,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0308,
+            "dy": -0.0004,
+            "speed_end": 0.0924,
+            "gaze": 0.0,
+            "nod_peak": 0.005
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0068,
+            "dy": 0.0021,
+            "speed_end": 0.0121,
+            "gaze": 0.469,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0069,
+            "dy": -0.0054,
+            "speed_end": 0.0465,
+            "gaze": -0.467,
+            "nod_peak": 0.005
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0646,
+            "dy": 0.0012,
+            "speed_end": 0.1329,
+            "gaze": -0.47,
+            "nod_peak": 0.008
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0255,
+            "dy": -0.0035,
+            "speed_end": 0.0238,
+            "gaze": 0.001,
+            "nod_peak": 0.216
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0623,
+            "dy": 0.0067,
+            "speed_end": 0.0648,
+            "gaze": 0.001,
+            "nod_peak": 0.007
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 810001,
+      "passed": true,
+      "fall": false,
+      "tilt": 3.36,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0002,
+            "dy": 0.0003,
+            "speed_end": 0.0003,
+            "gaze": 0.0,
+            "nod_peak": 0.003
+          },
+          {
+            "dx": 0.0062,
+            "dy": 0.0028,
+            "speed_end": 0.0,
+            "gaze": -0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": -0.0027,
+            "dy": -0.002,
+            "speed_end": 0.0001,
+            "gaze": -0.0,
+            "nod_peak": 0.004
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0422,
+            "dy": -0.0068,
+            "speed_end": 0.0365,
+            "gaze": 0.0,
+            "nod_peak": 0.01
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0119,
+            "dy": 0.0014,
+            "speed_end": 0.0222,
+            "gaze": 0.469,
+            "nod_peak": 0.005
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0113,
+            "dy": -0.0057,
+            "speed_end": 0.0557,
+            "gaze": -0.467,
+            "nod_peak": 0.006
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0655,
+            "dy": 0.0047,
+            "speed_end": 0.085,
+            "gaze": -0.471,
+            "nod_peak": 0.01
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0224,
+            "dy": 0.0023,
+            "speed_end": 0.0203,
+            "gaze": 0.002,
+            "nod_peak": 0.216
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.048,
+            "dy": 0.0008,
+            "speed_end": 0.0619,
+            "gaze": 0.003,
+            "nod_peak": 0.008
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 810193,
+      "passed": true,
+      "fall": false,
+      "tilt": 3.14,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0016,
+            "dy": 0.0004,
+            "speed_end": 0.0003,
+            "gaze": 0.0,
+            "nod_peak": 0.006
+          },
+          {
+            "dx": 0.0047,
+            "dy": 0.0032,
+            "speed_end": 0.0003,
+            "gaze": -0.0,
+            "nod_peak": 0.005
+          },
+          {
+            "dx": -0.0016,
+            "dy": -0.0027,
+            "speed_end": 0.0005,
+            "gaze": 0.0,
+            "nod_peak": 0.0
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0504,
+            "dy": -0.0094,
+            "speed_end": 0.0819,
+            "gaze": -0.0,
+            "nod_peak": 0.013
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0131,
+            "dy": -0.0019,
+            "speed_end": 0.0265,
+            "gaze": 0.468,
+            "nod_peak": 0.004
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0136,
+            "dy": -0.0057,
+            "speed_end": 0.0562,
+            "gaze": -0.467,
+            "nod_peak": 0.002
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0829,
+            "dy": 0.0135,
+            "speed_end": 0.1562,
+            "gaze": -0.471,
+            "nod_peak": 0.004
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0261,
+            "dy": -0.0133,
+            "speed_end": 0.0205,
+            "gaze": 0.002,
+            "nod_peak": 0.216
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0379,
+            "dy": 0.0028,
+            "speed_end": 0.0581,
+            "gaze": 0.003,
+            "nod_peak": 0.004
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 810377,
+      "passed": true,
+      "fall": false,
+      "tilt": 4.43,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0036,
+            "dy": 0.0006,
+            "speed_end": 0.0009,
+            "gaze": -0.0,
+            "nod_peak": 0.01
+          },
+          {
+            "dx": 0.0064,
+            "dy": 0.002,
+            "speed_end": 0.0002,
+            "gaze": -0.0,
+            "nod_peak": 0.003
+          },
+          {
+            "dx": -0.0011,
+            "dy": -0.0038,
+            "speed_end": 0.0003,
+            "gaze": -0.0,
+            "nod_peak": 0.0
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.041,
+            "dy": 0.0009,
+            "speed_end": 0.1234,
+            "gaze": 0.001,
+            "nod_peak": 0.019
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0153,
+            "dy": 0.0001,
+            "speed_end": 0.0238,
+            "gaze": 0.469,
+            "nod_peak": 0.013
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0106,
+            "dy": -0.0049,
+            "speed_end": 0.0581,
+            "gaze": -0.467,
+            "nod_peak": 0.004
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0768,
+            "dy": -0.0099,
+            "speed_end": 0.1094,
+            "gaze": -0.471,
+            "nod_peak": 0.011
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0294,
+            "dy": -0.0033,
+            "speed_end": 0.0505,
+            "gaze": 0.002,
+            "nod_peak": 0.208
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0384,
+            "dy": 0.0052,
+            "speed_end": 0.0667,
+            "gaze": 0.003,
+            "nod_peak": 0.002
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 810451,
+      "passed": true,
+      "fall": false,
+      "tilt": 6.58,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0026,
+            "dy": 0.0003,
+            "speed_end": 0.0006,
+            "gaze": 0.0,
+            "nod_peak": 0.009
+          },
+          {
+            "dx": 0.0124,
+            "dy": 0.0044,
+            "speed_end": 0.0001,
+            "gaze": 0.0,
+            "nod_peak": 0.012
+          },
+          {
+            "dx": -0.0027,
+            "dy": -0.0024,
+            "speed_end": 0.0003,
+            "gaze": 0.0,
+            "nod_peak": 0.002
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.0477,
+            "dy": -0.0068,
+            "speed_end": 0.0521,
+            "gaze": 0.0,
+            "nod_peak": 0.018
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0154,
+            "dy": 0.0026,
+            "speed_end": 0.0319,
+            "gaze": 0.468,
+            "nod_peak": 0.011
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.014,
+            "dy": -0.0073,
+            "speed_end": 0.0552,
+            "gaze": -0.467,
+            "nod_peak": 0.006
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.0923,
+            "dy": 0.0244,
+            "speed_end": 0.066,
+            "gaze": -0.469,
+            "nod_peak": 0.014
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0323,
+            "dy": -0.0057,
+            "speed_end": 0.1827,
+            "gaze": 0.001,
+            "nod_peak": 0.217
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.04,
+            "dy": 0.0261,
+            "speed_end": 0.0516,
+            "gaze": 0.003,
+            "nod_peak": 0.004
+          }
+        ]
+      }
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 430763,
+      "passed": true,
+      "fall": false,
+      "tilt": 4.66,
+      "commands": {
+        "dung": [
+          {
+            "dx": -0.0036,
+            "dy": 0.0003,
+            "speed_end": 0.0002,
+            "gaze": 0.0,
+            "nod_peak": 0.012
+          },
+          {
+            "dx": 0.0098,
+            "dy": 0.0015,
+            "speed_end": 0.0002,
+            "gaze": 0.0,
+            "nod_peak": 0.004
+          },
+          {
+            "dx": -0.0024,
+            "dy": -0.0056,
+            "speed_end": 0.0003,
+            "gaze": 0.0,
+            "nod_peak": 0.003
+          }
+        ],
+        "di": [
+          {
+            "dx": 0.036,
+            "dy": 0.0056,
+            "speed_end": 0.1017,
+            "gaze": -0.0,
+            "nod_peak": 0.018
+          }
+        ],
+        "trai": [
+          {
+            "dx": 0.0116,
+            "dy": -0.0003,
+            "speed_end": 0.0746,
+            "gaze": 0.468,
+            "nod_peak": 0.014
+          }
+        ],
+        "phai": [
+          {
+            "dx": 0.0144,
+            "dy": -0.0016,
+            "speed_end": 0.0683,
+            "gaze": -0.467,
+            "nod_peak": 0.012
+          }
+        ],
+        "nhanh": [
+          {
+            "dx": 0.081,
+            "dy": 0.009,
+            "speed_end": 0.1474,
+            "gaze": -0.469,
+            "nod_peak": 0.014
+          }
+        ],
+        "chao": [
+          {
+            "dx": 0.0305,
+            "dy": -0.0028,
+            "speed_end": 0.071,
+            "gaze": 0.001,
+            "nod_peak": 0.209
+          }
+        ],
+        "lui": [
+          {
+            "dx": -0.0461,
+            "dy": 0.0088,
+            "speed_end": 0.0798,
+            "gaze": 0.002,
+            "nod_peak": 0.004
+          }
+        ]
       }
     }
-  },
-  {
-    "terrain": "phang",
-    "seed": 932116,
-    "passed": true,
-    "checks": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "motion": {
-      "dung": {
-        "dx": -0.0119,
-        "turn": -0.0,
-        "head_range": 0.0,
-        "speed_end": 0.0
-      },
-      "di": {
-        "dx": 0.201,
-        "turn": 0.001,
-        "head_range": 0.001,
-        "speed_end": 0.1405
-      },
-      "nhanh": {
-        "dx": 0.4533,
-        "turn": -0.0,
-        "head_range": 0.001,
-        "speed_end": 0.2316
-      },
-      "trai": {
-        "dx": 0.1528,
-        "turn": 0.57,
-        "head_range": 0.001,
-        "speed_end": 0.187
-      },
-      "phai": {
-        "dx": 0.1583,
-        "turn": -0.571,
-        "head_range": 0.001,
-        "speed_end": 0.1082
-      },
-      "chao": {
-        "dx": 0.1575,
-        "turn": -0.0,
-        "head_range": 0.346,
-        "speed_end": 0.183
-      },
-      "lui": {
-        "dx": -0.1851,
-        "turn": 0.001,
-        "head_range": 0.001,
-        "speed_end": 0.0654
-      }
-    }
-  },
-  {
-    "terrain": "tron",
-    "seed": 932114,
-    "passed": true,
-    "checks": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "motion": {
-      "dung": {
-        "dx": -0.0159,
-        "turn": 0.0,
-        "head_range": 0.0,
-        "speed_end": 0.0006
-      },
-      "di": {
-        "dx": 0.24,
-        "turn": 0.0,
-        "head_range": 0.001,
-        "speed_end": 0.114
-      },
-      "nhanh": {
-        "dx": 0.47,
-        "turn": -0.0,
-        "head_range": 0.001,
-        "speed_end": 0.2368
-      },
-      "trai": {
-        "dx": 0.1595,
-        "turn": 0.57,
-        "head_range": 0.001,
-        "speed_end": 0.1792
-      },
-      "phai": {
-        "dx": 0.1649,
-        "turn": -0.571,
-        "head_range": 0.001,
-        "speed_end": 0.112
-      },
-      "chao": {
-        "dx": 0.1629,
-        "turn": 0.0,
-        "head_range": 0.346,
-        "speed_end": 0.1841
-      },
-      "lui": {
-        "dx": -0.2432,
-        "turn": 0.001,
-        "head_range": 0.0,
-        "speed_end": 0.066
-      }
-    }
-  },
-  {
-    "terrain": "tron",
-    "seed": 932116,
-    "passed": true,
-    "checks": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "motion": {
-      "dung": {
-        "dx": -0.0176,
-        "turn": -0.0,
-        "head_range": 0.0,
-        "speed_end": 0.0
-      },
-      "di": {
-        "dx": 0.2428,
-        "turn": 0.0,
-        "head_range": 0.001,
-        "speed_end": 0.1102
-      },
-      "nhanh": {
-        "dx": 0.4688,
-        "turn": -0.0,
-        "head_range": 0.001,
-        "speed_end": 0.2326
-      },
-      "trai": {
-        "dx": 0.159,
-        "turn": 0.57,
-        "head_range": 0.001,
-        "speed_end": 0.1741
-      },
-      "phai": {
-        "dx": 0.1641,
-        "turn": -0.571,
-        "head_range": 0.001,
-        "speed_end": 0.111
-      },
-      "chao": {
-        "dx": 0.1621,
-        "turn": 0.0,
-        "head_range": 0.346,
-        "speed_end": 0.183
-      },
-      "lui": {
-        "dx": -0.2473,
-        "turn": 0.001,
-        "head_range": 0.0,
-        "speed_end": 0.0676
-      }
-    }
-  },
-  {
-    "terrain": "doc",
-    "seed": 932114,
-    "passed": true,
-    "checks": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "motion": {
-      "dung": {
-        "dx": -0.0111,
-        "turn": -0.0,
-        "head_range": 0.0,
-        "speed_end": 0.0003
-      },
-      "di": {
-        "dx": 0.1825,
-        "turn": 0.001,
-        "head_range": 0.001,
-        "speed_end": 0.1628
-      },
-      "nhanh": {
-        "dx": 0.4317,
-        "turn": -0.0,
-        "head_range": 0.001,
-        "speed_end": 0.2354
-      },
-      "trai": {
-        "dx": 0.1449,
-        "turn": 0.571,
-        "head_range": 0.001,
-        "speed_end": 0.186
-      },
-      "phai": {
-        "dx": 0.1514,
-        "turn": -0.57,
-        "head_range": 0.001,
-        "speed_end": 0.1058
-      },
-      "chao": {
-        "dx": 0.1497,
-        "turn": -0.0,
-        "head_range": 0.347,
-        "speed_end": 0.1939
-      },
-      "lui": {
-        "dx": -0.1803,
-        "turn": 0.0,
-        "head_range": 0.001,
-        "speed_end": 0.0671
-      }
-    }
-  },
-  {
-    "terrain": "doc",
-    "seed": 932116,
-    "passed": true,
-    "checks": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "motion": {
-      "dung": {
-        "dx": -0.0113,
-        "turn": -0.0,
-        "head_range": 0.0,
-        "speed_end": 0.0002
-      },
-      "di": {
-        "dx": 0.1866,
-        "turn": 0.001,
-        "head_range": 0.001,
-        "speed_end": 0.1528
-      },
-      "nhanh": {
-        "dx": 0.438,
-        "turn": -0.0,
-        "head_range": 0.001,
-        "speed_end": 0.2353
-      },
-      "trai": {
-        "dx": 0.1471,
-        "turn": 0.571,
-        "head_range": 0.001,
-        "speed_end": 0.1867
-      },
-      "phai": {
-        "dx": 0.1533,
-        "turn": -0.57,
-        "head_range": 0.001,
-        "speed_end": 0.1073
-      },
-      "chao": {
-        "dx": 0.1515,
-        "turn": -0.0,
-        "head_range": 0.346,
-        "speed_end": 0.1912
-      },
-      "lui": {
-        "dx": -0.1893,
-        "turn": 0.0,
-        "head_range": 0.001,
-        "speed_end": 0.0648
-      }
-    }
-  },
-  {
-    "terrain": "nhap_nho",
-    "seed": 932114,
-    "passed": true,
-    "checks": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "motion": {
-      "dung": {
-        "dx": -0.0094,
-        "turn": 0.0,
-        "head_range": 0.001,
-        "speed_end": 0.0002
-      },
-      "di": {
-        "dx": 0.202,
-        "turn": 0.001,
-        "head_range": 0.001,
-        "speed_end": 0.0956
-      },
-      "nhanh": {
-        "dx": 0.4259,
-        "turn": 0.0,
-        "head_range": 0.001,
-        "speed_end": 0.2338
-      },
-      "trai": {
-        "dx": 0.168,
-        "turn": 0.57,
-        "head_range": 0.001,
-        "speed_end": 0.1221
-      },
-      "phai": {
-        "dx": 0.1557,
-        "turn": -0.571,
-        "head_range": 0.001,
-        "speed_end": 0.108
-      },
-      "chao": {
-        "dx": 0.1475,
-        "turn": -0.0,
-        "head_range": 0.346,
-        "speed_end": 0.1852
-      },
-      "lui": {
-        "dx": -0.1429,
-        "turn": 0.0,
-        "head_range": 0.001,
-        "speed_end": 0.0638
-      }
-    }
-  },
-  {
-    "terrain": "nhap_nho",
-    "seed": 932116,
-    "passed": true,
-    "checks": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "motion": {
-      "dung": {
-        "dx": -0.0072,
-        "turn": -0.0,
-        "head_range": 0.001,
-        "speed_end": 0.0001
-      },
-      "di": {
-        "dx": 0.2023,
-        "turn": 0.001,
-        "head_range": 0.001,
-        "speed_end": 0.117
-      },
-      "nhanh": {
-        "dx": 0.4436,
-        "turn": -0.0,
-        "head_range": 0.001,
-        "speed_end": 0.2374
-      },
-      "trai": {
-        "dx": 0.1487,
-        "turn": 0.57,
-        "head_range": 0.001,
-        "speed_end": 0.1711
-      },
-      "phai": {
-        "dx": 0.1579,
-        "turn": -0.571,
-        "head_range": 0.001,
-        "speed_end": 0.1099
-      },
-      "chao": {
-        "dx": 0.1497,
-        "turn": -0.0,
-        "head_range": 0.346,
-        "speed_end": 0.188
-      },
-      "lui": {
-        "dx": -0.1799,
-        "turn": 0.001,
-        "head_range": 0.001,
-        "speed_end": 0.0559
-      }
-    }
-  }
-]
+  ]
+}

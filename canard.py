@@ -30,9 +30,9 @@ def play(terrain,seed):
     print("Mũi tên lên/xuống: đi/lùi · F: nhanh · Space: dừng · trái/phải: nhìn · G: gật · R: đặt lại.")
     print("Nhấn V, nói ngay sau dòng ĐANG NGHE." if profile else "Để dùng micro, thu mẫu một lần bằng Vit.cmd giong.",flush=True)
     with ThreadPoolExecutor(max_workers=1) as pool, mujoco.viewer.launch_passive(w.m,w.d,key_callback=q.put) as viewer:
-        viewer.cam.azimuth=125
-        viewer.cam.elevation=-17
-        viewer.cam.distance=1.24
+        viewer.cam.azimuth=142
+        viewer.cam.elevation=-11
+        viewer.cam.distance=.53
         tick=0
         while viewer.is_running():
             start=time.perf_counter()
@@ -74,7 +74,7 @@ def play(terrain,seed):
             w.step(gait,request)
             if w.fallen and not was_fallen: print("Robot đã ngã. Nhấn R để đặt lại.",flush=True)
             if tick%2==0:
-                viewer.cam.lookat[:]=(*w.d.qpos[:2],.24)
+                viewer.cam.lookat[:]=(w.d.qpos[0]+.016,w.d.qpos[1],.126)
                 viewer.sync()
             tick+=1
             time.sleep(max(0.,DT-(time.perf_counter()-start)))
@@ -102,4 +102,5 @@ def main():
 
 if __name__=="__main__":
     main()
+
 
