@@ -1,0 +1,114 @@
+<microduck>
+  <asset>
+    <texture name="micro_tex_0" type="2d" file="color_0.png" />
+    <material name="micro_mat_0" specular="0.23" shininess="0.3" texture="micro_tex_0" rgba="1 1 1 1" />
+    <texture name="micro_tex_4" type="2d" file="color_4.png" />
+    <material name="micro_mat_1" specular="0.52" shininess="0.62" texture="micro_tex_4" rgba="1 1 1 1" />
+    <texture name="micro_tex_7" type="2d" file="color_7.png" />
+    <material name="micro_mat_2" specular="0.23" shininess="0.3" texture="micro_tex_7" rgba="1 1 1 1" />
+    <texture name="micro_tex_10" type="2d" file="color_10.png" />
+    <material name="micro_mat_3" specular="0.52" shininess="0.62" texture="micro_tex_10" rgba="1 1 1 1" />
+    <texture name="micro_tex_14" type="2d" file="color_14.png" />
+    <material name="micro_mat_4" specular="0.23" shininess="0.3" texture="micro_tex_14" rgba="1 1 1 1" />
+    <texture name="micro_tex_17" type="2d" file="color_17.png" />
+    <material name="micro_mat_5" specular="0.52" shininess="0.62" texture="micro_tex_17" rgba="1 1 1 1" />
+    <material name="micro_mat_6" specular="0.52" shininess="0.62" texture="micro_tex_17" rgba="1 1 1 1" />
+    <material name="micro_mat_7" specular="0.23" shininess="0.3" rgba="0.8 0.8 0.8 1.0" />
+    <texture name="micro_tex_20" type="2d" file="color_20.png" />
+    <material name="micro_mat_8" specular="0.23" shininess="0.3" texture="micro_tex_20" rgba="1 1 1 1" />
+    <texture name="micro_tex_24" type="2d" file="color_24.png" />
+    <material name="micro_mat_9" specular="0.23" shininess="0.3" texture="micro_tex_24" rgba="1 1 1 1" />
+    <texture name="micro_tex_27" type="2d" file="color_27.png" />
+    <material name="micro_mat_10" specular="0.23" shininess="0.3" texture="micro_tex_27" rgba="1 1 1 1" />
+    <mesh name="micro_chan_L_1" file="micro_chan_L_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_L_8" file="micro_chan_L_8.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_L_10" file="micro_chan_L_10.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_R_1" file="micro_chan_R_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_R_8" file="micro_chan_R_8.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_R_10" file="micro_chan_R_10.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_co_0" file="micro_co_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_co_1" file="micro_co_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_co_2" file="micro_co_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_co_7" file="micro_co_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_0" file="micro_dau_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_1" file="micro_dau_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_2" file="micro_dau_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_3" file="micro_dau_3.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_4" file="micro_dau_4.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_5" file="micro_dau_5.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_6" file="micro_dau_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_7" file="micro_dau_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_8" file="micro_dau_8.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_9" file="micro_dau_9.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_10" file="micro_dau_10.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_L_0" file="micro_dui_L_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_L_2" file="micro_dui_L_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_L_6" file="micro_dui_L_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_L_7" file="micro_dui_L_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_R_0" file="micro_dui_R_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_R_2" file="micro_dui_R_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_R_6" file="micro_dui_R_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_R_7" file="micro_dui_R_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_0" file="micro_ong_L_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_1" file="micro_ong_L_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_2" file="micro_ong_L_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_6" file="micro_ong_L_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_7" file="micro_ong_L_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_0" file="micro_ong_R_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_1" file="micro_ong_R_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_2" file="micro_ong_R_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_6" file="micro_ong_R_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_7" file="micro_ong_R_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_0" file="micro_than_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_1" file="micro_than_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_2" file="micro_than_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_6" file="micro_than_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_7" file="micro_than_7.msh" maxhullvert="32" inertia="shell" />
+  </asset>
+  <attachments>
+    <part body="chan_L" mesh="micro_chan_L_1" material="micro_mat_1" />
+    <part body="chan_L" mesh="micro_chan_L_8" material="micro_mat_8" />
+    <part body="chan_L" mesh="micro_chan_L_10" material="micro_mat_10" />
+    <part body="chan_R" mesh="micro_chan_R_1" material="micro_mat_1" />
+    <part body="chan_R" mesh="micro_chan_R_8" material="micro_mat_8" />
+    <part body="chan_R" mesh="micro_chan_R_10" material="micro_mat_10" />
+    <part body="co" mesh="micro_co_0" material="micro_mat_0" />
+    <part body="co" mesh="micro_co_1" material="micro_mat_1" />
+    <part body="co" mesh="micro_co_2" material="micro_mat_2" />
+    <part body="co" mesh="micro_co_7" material="micro_mat_7" />
+    <part body="dau" mesh="micro_dau_0" material="micro_mat_0" />
+    <part body="dau" mesh="micro_dau_1" material="micro_mat_1" />
+    <part body="dau" mesh="micro_dau_2" material="micro_mat_2" />
+    <part body="dau" mesh="micro_dau_3" material="micro_mat_3" />
+    <part body="dau" mesh="micro_dau_4" material="micro_mat_4" />
+    <part body="dau" mesh="micro_dau_5" material="micro_mat_5" />
+    <part body="dau" mesh="micro_dau_6" material="micro_mat_6" />
+    <part body="dau" mesh="micro_dau_7" material="micro_mat_7" />
+    <part body="dau" mesh="micro_dau_8" material="micro_mat_8" />
+    <part body="dau" mesh="micro_dau_9" material="micro_mat_9" />
+    <part body="dau" mesh="micro_dau_10" material="micro_mat_10" />
+    <part body="dui_L" mesh="micro_dui_L_0" material="micro_mat_0" />
+    <part body="dui_L" mesh="micro_dui_L_2" material="micro_mat_2" />
+    <part body="dui_L" mesh="micro_dui_L_6" material="micro_mat_6" />
+    <part body="dui_L" mesh="micro_dui_L_7" material="micro_mat_7" />
+    <part body="dui_R" mesh="micro_dui_R_0" material="micro_mat_0" />
+    <part body="dui_R" mesh="micro_dui_R_2" material="micro_mat_2" />
+    <part body="dui_R" mesh="micro_dui_R_6" material="micro_mat_6" />
+    <part body="dui_R" mesh="micro_dui_R_7" material="micro_mat_7" />
+    <part body="ong_L" mesh="micro_ong_L_0" material="micro_mat_0" />
+    <part body="ong_L" mesh="micro_ong_L_1" material="micro_mat_1" />
+    <part body="ong_L" mesh="micro_ong_L_2" material="micro_mat_2" />
+    <part body="ong_L" mesh="micro_ong_L_6" material="micro_mat_6" />
+    <part body="ong_L" mesh="micro_ong_L_7" material="micro_mat_7" />
+    <part body="ong_R" mesh="micro_ong_R_0" material="micro_mat_0" />
+    <part body="ong_R" mesh="micro_ong_R_1" material="micro_mat_1" />
+    <part body="ong_R" mesh="micro_ong_R_2" material="micro_mat_2" />
+    <part body="ong_R" mesh="micro_ong_R_6" material="micro_mat_6" />
+    <part body="ong_R" mesh="micro_ong_R_7" material="micro_mat_7" />
+    <part body="than" mesh="micro_than_0" material="micro_mat_0" />
+    <part body="than" mesh="micro_than_1" material="micro_mat_1" />
+    <part body="than" mesh="micro_than_2" material="micro_mat_2" />
+    <part body="than" mesh="micro_than_6" material="micro_mat_6" />
+    <part body="than" mesh="micro_than_7" material="micro_mat_7" />
+  </attachments>
+</microduck>

@@ -1,0 +1,6937 @@
+{
+  "seed": 953,
+  "parent": {
+    "freq": 1.55,
+    "reach": 0.029,
+    "lift": 0.02,
+    "sway": 0.025,
+    "stance": 0.6,
+    "blend": 0.0
+  },
+  "training": [
+    {
+      "gait": {
+        "freq": 2.128,
+        "reach": 0.048,
+        "lift": 0.0387,
+        "sway": 0.0317,
+        "stance": 0.578,
+        "blend": 1.19
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.2611,
+        "ripple": 0.1105,
+        "tilt": 49.77,
+        "drift": 0.4532,
+        "min_v": 0.0826,
+        "stop": 0.9286
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2831,
+          "ripple": 0.1165,
+          "tilt": 12.41,
+          "drift": 0.4532,
+          "steps": [
+            37,
+            32
+          ],
+          "stop": 0.0028
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.385,
+          "ripple": 0.0565,
+          "tilt": 5.16,
+          "drift": 0.0385,
+          "steps": [
+            23,
+            22
+          ],
+          "stop": 0.0066
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2939,
+          "ripple": 0.0943,
+          "tilt": 9.81,
+          "drift": 0.0038,
+          "steps": [
+            38,
+            40
+          ],
+          "stop": 0.0038
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0826,
+          "ripple": 0.1749,
+          "tilt": 49.77,
+          "drift": 0.0742,
+          "steps": [
+            8,
+            7
+          ],
+          "stop": 0.9286
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.453,
+        "reach": 0.0377,
+        "lift": 0.016,
+        "sway": 0.0254,
+        "stance": 0.614,
+        "blend": 0.538
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1447,
+        "ripple": 0.0526,
+        "tilt": 4.01,
+        "drift": 0.1206,
+        "min_v": 0.1325,
+        "stop": 0.0092
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1473,
+          "ripple": 0.0447,
+          "tilt": 2.35,
+          "drift": 0.0081,
+          "steps": [
+            22,
+            35
+          ],
+          "stop": 0.0089
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1596,
+          "ripple": 0.0385,
+          "tilt": 2.35,
+          "drift": 0.0308,
+          "steps": [
+            29,
+            39
+          ],
+          "stop": 0.0073
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1325,
+          "ripple": 0.0632,
+          "tilt": 2.18,
+          "drift": 0.0141,
+          "steps": [
+            29,
+            32
+          ],
+          "stop": 0.0092
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1393,
+          "ripple": 0.0641,
+          "tilt": 4.01,
+          "drift": 0.1206,
+          "steps": [
+            27,
+            30
+          ],
+          "stop": 0.0077
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.513,
+        "reach": 0.0373,
+        "lift": 0.0317,
+        "sway": 0.0279,
+        "stance": 0.65,
+        "blend": 1.074
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2559,
+        "ripple": 0.0783,
+        "tilt": 11.52,
+        "drift": 0.3875,
+        "min_v": 0.2381,
+        "stop": 0.0395
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2381,
+          "ripple": 0.0852,
+          "tilt": 11.52,
+          "drift": 0.3875,
+          "steps": [
+            32,
+            36
+          ],
+          "stop": 0.0395
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2759,
+          "ripple": 0.0554,
+          "tilt": 3.31,
+          "drift": 0.0324,
+          "steps": [
+            58,
+            53
+          ],
+          "stop": 0.0094
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2412,
+          "ripple": 0.0815,
+          "tilt": 9.85,
+          "drift": 0.1935,
+          "steps": [
+            36,
+            35
+          ],
+          "stop": 0.0282
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2683,
+          "ripple": 0.091,
+          "tilt": 9.06,
+          "drift": 0.1029,
+          "steps": [
+            32,
+            32
+          ],
+          "stop": 0.0285
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.421,
+        "reach": 0.0365,
+        "lift": 0.0347,
+        "sway": 0.0201,
+        "stance": 0.635,
+        "blend": 1.008
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1433,
+        "ripple": 0.0454,
+        "tilt": 4.46,
+        "drift": 0.0306,
+        "min_v": 0.137,
+        "stop": 0.0074
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1425,
+          "ripple": 0.0402,
+          "tilt": 2.95,
+          "drift": 0.0266,
+          "steps": [
+            13,
+            15
+          ],
+          "stop": 0.0017
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1515,
+          "ripple": 0.0357,
+          "tilt": 2.88,
+          "drift": 0.0306,
+          "steps": [
+            12,
+            18
+          ],
+          "stop": 0.0054
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.137,
+          "ripple": 0.0462,
+          "tilt": 2.8,
+          "drift": 0.0165,
+          "steps": [
+            13,
+            16
+          ],
+          "stop": 0.0022
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1421,
+          "ripple": 0.0596,
+          "tilt": 4.46,
+          "drift": 0.0078,
+          "steps": [
+            16,
+            16
+          ],
+          "stop": 0.0074
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.907,
+        "reach": 0.0519,
+        "lift": 0.0343,
+        "sway": 0.0336,
+        "stance": 0.518,
+        "blend": 1.165
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.2615,
+        "ripple": 0.0959,
+        "tilt": 49.55,
+        "drift": 1.0542,
+        "min_v": 0.1132,
+        "stop": 0.7937
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3117,
+          "ripple": 0.11,
+          "tilt": 11.22,
+          "drift": 0.1816,
+          "steps": [
+            31,
+            32
+          ],
+          "stop": 0.0609
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3977,
+          "ripple": 0.0669,
+          "tilt": 5.31,
+          "drift": 0.0815,
+          "steps": [
+            24,
+            24
+          ],
+          "stop": 0.0151
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2233,
+          "ripple": 0.129,
+          "tilt": 12.92,
+          "drift": 1.0542,
+          "steps": [
+            34,
+            45
+          ],
+          "stop": 0.017
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.1132,
+          "ripple": 0.0775,
+          "tilt": 49.55,
+          "drift": 0.183,
+          "steps": [
+            10,
+            7
+          ],
+          "stop": 0.7937
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.701,
+        "reach": 0.0374,
+        "lift": 0.0363,
+        "sway": 0.0185,
+        "stance": 0.615,
+        "blend": 0.757
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1812,
+        "ripple": 0.0586,
+        "tilt": 4.58,
+        "drift": 0.0108,
+        "min_v": 0.1739,
+        "stop": 0.0231
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1802,
+          "ripple": 0.0571,
+          "tilt": 3.29,
+          "drift": 0.0108,
+          "steps": [
+            13,
+            18
+          ],
+          "stop": 0.0063
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1897,
+          "ripple": 0.0465,
+          "tilt": 3.2,
+          "drift": 0.0102,
+          "steps": [
+            21,
+            22
+          ],
+          "stop": 0.0023
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1739,
+          "ripple": 0.0638,
+          "tilt": 3.96,
+          "drift": 0.0025,
+          "steps": [
+            15,
+            18
+          ],
+          "stop": 0.0066
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.181,
+          "ripple": 0.0672,
+          "tilt": 4.58,
+          "drift": 0.0102,
+          "steps": [
+            16,
+            18
+          ],
+          "stop": 0.0231
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.358,
+        "reach": 0.0528,
+        "lift": 0.0166,
+        "sway": 0.0237,
+        "stance": 0.597,
+        "blend": 1.093
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2006,
+        "ripple": 0.0702,
+        "tilt": 5.1,
+        "drift": 0.1376,
+        "min_v": 0.1783,
+        "stop": 0.0065
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2073,
+          "ripple": 0.0538,
+          "tilt": 2.69,
+          "drift": 0.0675,
+          "steps": [
+            34,
+            40
+          ],
+          "stop": 0.0026
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2168,
+          "ripple": 0.0484,
+          "tilt": 2.67,
+          "drift": 0.1376,
+          "steps": [
+            37,
+            44
+          ],
+          "stop": 0.004
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1783,
+          "ripple": 0.0918,
+          "tilt": 2.56,
+          "drift": 0.0021,
+          "steps": [
+            44,
+            38
+          ],
+          "stop": 0.0029
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2002,
+          "ripple": 0.0869,
+          "tilt": 5.1,
+          "drift": 0.1158,
+          "steps": [
+            36,
+            34
+          ],
+          "stop": 0.0065
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.119,
+        "reach": 0.0365,
+        "lift": 0.035,
+        "sway": 0.0187,
+        "stance": 0.633,
+        "blend": 0.663
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2173,
+        "ripple": 0.0591,
+        "tilt": 4.41,
+        "drift": 0.2051,
+        "min_v": 0.2108,
+        "stop": 0.0135
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2226,
+          "ripple": 0.0537,
+          "tilt": 2.49,
+          "drift": 0.04,
+          "steps": [
+            21,
+            26
+          ],
+          "stop": 0.0052
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2221,
+          "ripple": 0.0553,
+          "tilt": 2.45,
+          "drift": 0.0218,
+          "steps": [
+            34,
+            27
+          ],
+          "stop": 0.0027
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2136,
+          "ripple": 0.0647,
+          "tilt": 2.59,
+          "drift": 0.0216,
+          "steps": [
+            21,
+            24
+          ],
+          "stop": 0.0042
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2108,
+          "ripple": 0.0628,
+          "tilt": 4.41,
+          "drift": 0.2051,
+          "steps": [
+            26,
+            20
+          ],
+          "stop": 0.0135
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.113,
+        "reach": 0.0333,
+        "lift": 0.0246,
+        "sway": 0.0226,
+        "stance": 0.547,
+        "blend": 1.155
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2305,
+        "ripple": 0.0596,
+        "tilt": 6.16,
+        "drift": 0.1935,
+        "min_v": 0.2162,
+        "stop": 0.0198
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2328,
+          "ripple": 0.0475,
+          "tilt": 2.62,
+          "drift": 0.0575,
+          "steps": [
+            24,
+            27
+          ],
+          "stop": 0.0015
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2385,
+          "ripple": 0.0525,
+          "tilt": 2.74,
+          "drift": 0.0306,
+          "steps": [
+            34,
+            30
+          ],
+          "stop": 0.005
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2162,
+          "ripple": 0.0665,
+          "tilt": 2.97,
+          "drift": 0.0372,
+          "steps": [
+            22,
+            26
+          ],
+          "stop": 0.0021
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2344,
+          "ripple": 0.0718,
+          "tilt": 6.16,
+          "drift": 0.1935,
+          "steps": [
+            22,
+            22
+          ],
+          "stop": 0.0198
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.348,
+        "reach": 0.0544,
+        "lift": 0.0236,
+        "sway": 0.0238,
+        "stance": 0.602,
+        "blend": 1.185
+      },
+      "stats": {
+        "count": 4,
+        "falls": 3,
+        "v": 0.1701,
+        "ripple": 0.2767,
+        "tilt": 51.11,
+        "drift": 0.6851,
+        "min_v": 0.0342,
+        "stop": 0.7982
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.1729,
+          "ripple": 0.2841,
+          "tilt": 50.09,
+          "drift": 0.6851,
+          "steps": [
+            28,
+            24
+          ],
+          "stop": 0.5286
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.4159,
+          "ripple": 0.069,
+          "tilt": 2.96,
+          "drift": 0.4732,
+          "steps": [
+            48,
+            51
+          ],
+          "stop": 0.0088
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0576,
+          "ripple": 0.3228,
+          "tilt": 51.03,
+          "drift": 0.0092,
+          "steps": [
+            18,
+            18
+          ],
+          "stop": 0.7123
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0342,
+          "ripple": 0.431,
+          "tilt": 51.11,
+          "drift": 0.1477,
+          "steps": [
+            16,
+            12
+          ],
+          "stop": 0.7982
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.894,
+        "reach": 0.0457,
+        "lift": 0.0388,
+        "sway": 0.0324,
+        "stance": 0.625,
+        "blend": 0.616
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2309,
+        "ripple": 0.114,
+        "tilt": 17.34,
+        "drift": 0.3542,
+        "min_v": 0.181,
+        "stop": 0.2136
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2317,
+          "ripple": 0.1091,
+          "tilt": 8.32,
+          "drift": 0.3542,
+          "steps": [
+            16,
+            17
+          ],
+          "stop": 0.0149
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2725,
+          "ripple": 0.0677,
+          "tilt": 3.61,
+          "drift": 0.0332,
+          "steps": [
+            30,
+            31
+          ],
+          "stop": 0.0098
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.181,
+          "ripple": 0.1706,
+          "tilt": 17.34,
+          "drift": 0.288,
+          "steps": [
+            28,
+            33
+          ],
+          "stop": 0.0344
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2384,
+          "ripple": 0.1087,
+          "tilt": 11.08,
+          "drift": 0.012,
+          "steps": [
+            20,
+            24
+          ],
+          "stop": 0.2136
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.928,
+        "reach": 0.0461,
+        "lift": 0.0271,
+        "sway": 0.0296,
+        "stance": 0.559,
+        "blend": 0.872
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2475,
+        "ripple": 0.1151,
+        "tilt": 11.62,
+        "drift": 1.2192,
+        "min_v": 0.1493,
+        "stop": 0.005
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2614,
+          "ripple": 0.0953,
+          "tilt": 9.74,
+          "drift": 0.2404,
+          "steps": [
+            31,
+            23
+          ],
+          "stop": 0.005
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3111,
+          "ripple": 0.0674,
+          "tilt": 3.01,
+          "drift": 0.053,
+          "steps": [
+            36,
+            34
+          ],
+          "stop": 0.0034
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2684,
+          "ripple": 0.0881,
+          "tilt": 3.45,
+          "drift": 0.025,
+          "steps": [
+            32,
+            38
+          ],
+          "stop": 0.0018
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1493,
+          "ripple": 0.2095,
+          "tilt": 11.62,
+          "drift": 1.2192,
+          "steps": [
+            38,
+            24
+          ],
+          "stop": 0.0021
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.347,
+        "reach": 0.0536,
+        "lift": 0.036,
+        "sway": 0.0308,
+        "stance": 0.581,
+        "blend": 0.847
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2178,
+        "ripple": 0.0745,
+        "tilt": 4.94,
+        "drift": 0.1074,
+        "min_v": 0.2013,
+        "stop": 0.0317
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2219,
+          "ripple": 0.0595,
+          "tilt": 3.17,
+          "drift": 0.061,
+          "steps": [
+            28,
+            22
+          ],
+          "stop": 0.015
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2304,
+          "ripple": 0.0536,
+          "tilt": 3.14,
+          "drift": 0.0336,
+          "steps": [
+            18,
+            21
+          ],
+          "stop": 0.0149
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2013,
+          "ripple": 0.0882,
+          "tilt": 3.45,
+          "drift": 0.0868,
+          "steps": [
+            24,
+            18
+          ],
+          "stop": 0.0213
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2178,
+          "ripple": 0.0965,
+          "tilt": 4.94,
+          "drift": 0.1074,
+          "steps": [
+            16,
+            21
+          ],
+          "stop": 0.0317
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.337,
+        "reach": 0.046,
+        "lift": 0.0335,
+        "sway": 0.017,
+        "stance": 0.626,
+        "blend": 0.972
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1664,
+        "ripple": 0.0585,
+        "tilt": 4.68,
+        "drift": 0.1536,
+        "min_v": 0.1539,
+        "stop": 0.0188
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1684,
+          "ripple": 0.051,
+          "tilt": 3.52,
+          "drift": 0.081,
+          "steps": [
+            21,
+            20
+          ],
+          "stop": 0.0135
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1796,
+          "ripple": 0.042,
+          "tilt": 3.27,
+          "drift": 0.0347,
+          "steps": [
+            17,
+            18
+          ],
+          "stop": 0.0055
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1539,
+          "ripple": 0.0688,
+          "tilt": 3.76,
+          "drift": 0.1536,
+          "steps": [
+            22,
+            19
+          ],
+          "stop": 0.0112
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1638,
+          "ripple": 0.072,
+          "tilt": 4.68,
+          "drift": 0.0283,
+          "steps": [
+            22,
+            21
+          ],
+          "stop": 0.0188
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.153,
+        "reach": 0.0529,
+        "lift": 0.0337,
+        "sway": 0.0187,
+        "stance": 0.645,
+        "blend": 1.211
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.3025,
+        "ripple": 0.0876,
+        "tilt": 5.03,
+        "drift": 0.5232,
+        "min_v": 0.2859,
+        "stop": 0.0071
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.313,
+          "ripple": 0.0805,
+          "tilt": 3.12,
+          "drift": 0.0958,
+          "steps": [
+            33,
+            39
+          ],
+          "stop": 0.0071
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3204,
+          "ripple": 0.076,
+          "tilt": 2.86,
+          "drift": 0.0625,
+          "steps": [
+            40,
+            41
+          ],
+          "stop": 0.0059
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2859,
+          "ripple": 0.1004,
+          "tilt": 3.49,
+          "drift": 0.1375,
+          "steps": [
+            34,
+            43
+          ],
+          "stop": 0.005
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2909,
+          "ripple": 0.0933,
+          "tilt": 5.03,
+          "drift": 0.5232,
+          "steps": [
+            35,
+            39
+          ],
+          "stop": 0.0024
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.306,
+        "reach": 0.0431,
+        "lift": 0.0346,
+        "sway": 0.0151,
+        "stance": 0.578,
+        "blend": 0.769
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.264,
+        "ripple": 0.0843,
+        "tilt": 6.67,
+        "drift": 0.1194,
+        "min_v": 0.2246,
+        "stop": 0.1094
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2544,
+          "ripple": 0.0958,
+          "tilt": 5.33,
+          "drift": 0.0003,
+          "steps": [
+            29,
+            29
+          ],
+          "stop": 0.0165
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3045,
+          "ripple": 0.0634,
+          "tilt": 3.2,
+          "drift": 0.0216,
+          "steps": [
+            33,
+            35
+          ],
+          "stop": 0.0045
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2246,
+          "ripple": 0.097,
+          "tilt": 6.67,
+          "drift": 0.021,
+          "steps": [
+            37,
+            32
+          ],
+          "stop": 0.1094
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2723,
+          "ripple": 0.0811,
+          "tilt": 6.38,
+          "drift": 0.1194,
+          "steps": [
+            29,
+            35
+          ],
+          "stop": 0.0101
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.719,
+        "reach": 0.0326,
+        "lift": 0.0379,
+        "sway": 0.0151,
+        "stance": 0.534,
+        "blend": 1.253
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1388,
+        "ripple": 0.1004,
+        "tilt": 12.54,
+        "drift": 0.0509,
+        "min_v": 0.1148,
+        "stop": 0.0751
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1218,
+          "ripple": 0.1178,
+          "tilt": 11.27,
+          "drift": 0.0178,
+          "steps": [
+            15,
+            17
+          ],
+          "stop": 0.0751
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.187,
+          "ripple": 0.0491,
+          "tilt": 6.64,
+          "drift": 0.012,
+          "steps": [
+            37,
+            37
+          ],
+          "stop": 0.0092
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1148,
+          "ripple": 0.1179,
+          "tilt": 12.0,
+          "drift": 0.0007,
+          "steps": [
+            17,
+            18
+          ],
+          "stop": 0.0448
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1314,
+          "ripple": 0.1168,
+          "tilt": 12.54,
+          "drift": 0.0509,
+          "steps": [
+            18,
+            15
+          ],
+          "stop": 0.0436
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.54,
+        "reach": 0.0493,
+        "lift": 0.0342,
+        "sway": 0.0279,
+        "stance": 0.642,
+        "blend": 0.982
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.2858,
+        "ripple": 0.1174,
+        "tilt": 49.43,
+        "drift": 0.2371,
+        "min_v": 0.1114,
+        "stop": 0.4998
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.1114,
+          "ripple": 0.1708,
+          "tilt": 49.43,
+          "drift": 0.2371,
+          "steps": [
+            19,
+            13
+          ],
+          "stop": 0.4998
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3863,
+          "ripple": 0.0668,
+          "tilt": 3.57,
+          "drift": 0.1824,
+          "steps": [
+            66,
+            58
+          ],
+          "stop": 0.01
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3278,
+          "ripple": 0.0902,
+          "tilt": 8.06,
+          "drift": 0.1377,
+          "steps": [
+            48,
+            51
+          ],
+          "stop": 0.0123
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3179,
+          "ripple": 0.1417,
+          "tilt": 17.14,
+          "drift": 0.1821,
+          "steps": [
+            40,
+            40
+          ],
+          "stop": 0.2073
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.517,
+        "reach": 0.0293,
+        "lift": 0.0324,
+        "sway": 0.0319,
+        "stance": 0.541,
+        "blend": 0.809
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.221,
+        "ripple": 0.0672,
+        "tilt": 10.12,
+        "drift": 0.3102,
+        "min_v": 0.1937,
+        "stop": 0.0397
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1937,
+          "ripple": 0.0941,
+          "tilt": 10.12,
+          "drift": 0.1073,
+          "steps": [
+            38,
+            37
+          ],
+          "stop": 0.0397
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.268,
+          "ripple": 0.026,
+          "tilt": 7.37,
+          "drift": 0.1289,
+          "steps": [
+            28,
+            25
+          ],
+          "stop": 0.0064
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1958,
+          "ripple": 0.0883,
+          "tilt": 9.81,
+          "drift": 0.3102,
+          "steps": [
+            37,
+            39
+          ],
+          "stop": 0.008
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2264,
+          "ripple": 0.0605,
+          "tilt": 9.59,
+          "drift": 0.1397,
+          "steps": [
+            31,
+            37
+          ],
+          "stop": 0.0062
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.475,
+        "reach": 0.0535,
+        "lift": 0.0184,
+        "sway": 0.0138,
+        "stance": 0.545,
+        "blend": 0.807
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2103,
+        "ripple": 0.1004,
+        "tilt": 6.22,
+        "drift": 0.8066,
+        "min_v": 0.1306,
+        "stop": 0.0132
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2408,
+          "ripple": 0.0831,
+          "tilt": 3.43,
+          "drift": 0.0159,
+          "steps": [
+            40,
+            40
+          ],
+          "stop": 0.0132
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2569,
+          "ripple": 0.0676,
+          "tilt": 3.46,
+          "drift": 0.1487,
+          "steps": [
+            57,
+            43
+          ],
+          "stop": 0.0106
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1306,
+          "ripple": 0.1276,
+          "tilt": 6.2,
+          "drift": 0.8066,
+          "steps": [
+            49,
+            63
+          ],
+          "stop": 0.011
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.213,
+          "ripple": 0.1235,
+          "tilt": 6.22,
+          "drift": 0.0125,
+          "steps": [
+            43,
+            46
+          ],
+          "stop": 0.0117
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.536,
+        "reach": 0.0553,
+        "lift": 0.0193,
+        "sway": 0.0272,
+        "stance": 0.568,
+        "blend": 0.669
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2455,
+        "ripple": 0.1022,
+        "tilt": 6.87,
+        "drift": 0.2128,
+        "min_v": 0.2133,
+        "stop": 0.0198
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2576,
+          "ripple": 0.0811,
+          "tilt": 3.31,
+          "drift": 0.0757,
+          "steps": [
+            28,
+            31
+          ],
+          "stop": 0.0161
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.266,
+          "ripple": 0.0683,
+          "tilt": 2.99,
+          "drift": 0.1743,
+          "steps": [
+            39,
+            42
+          ],
+          "stop": 0.0123
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2133,
+          "ripple": 0.1385,
+          "tilt": 4.8,
+          "drift": 0.2128,
+          "steps": [
+            30,
+            47
+          ],
+          "stop": 0.0198
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2449,
+          "ripple": 0.121,
+          "tilt": 6.87,
+          "drift": 0.0307,
+          "steps": [
+            31,
+            33
+          ],
+          "stop": 0.0057
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.452,
+        "reach": 0.0343,
+        "lift": 0.0236,
+        "sway": 0.0236,
+        "stance": 0.667,
+        "blend": 0.967
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2166,
+        "ripple": 0.0834,
+        "tilt": 8.17,
+        "drift": 0.3324,
+        "min_v": 0.2018,
+        "stop": 0.0198
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2094,
+          "ripple": 0.0809,
+          "tilt": 6.83,
+          "drift": 0.313,
+          "steps": [
+            31,
+            32
+          ],
+          "stop": 0.0198
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2159,
+          "ripple": 0.0483,
+          "tilt": 2.12,
+          "drift": 0.0208,
+          "steps": [
+            53,
+            50
+          ],
+          "stop": 0.0096
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2018,
+          "ripple": 0.1117,
+          "tilt": 8.17,
+          "drift": 0.3324,
+          "steps": [
+            38,
+            37
+          ],
+          "stop": 0.0087
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2393,
+          "ripple": 0.0926,
+          "tilt": 7.35,
+          "drift": 0.0749,
+          "steps": [
+            27,
+            25
+          ],
+          "stop": 0.0058
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.05,
+        "reach": 0.0563,
+        "lift": 0.0318,
+        "sway": 0.0315,
+        "stance": 0.581,
+        "blend": 1.053
+      },
+      "stats": {
+        "count": 4,
+        "falls": 2,
+        "v": 0.2916,
+        "ripple": 0.1266,
+        "tilt": 49.42,
+        "drift": 0.4328,
+        "min_v": 0.118,
+        "stop": 0.9133
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.118,
+          "ripple": 0.1683,
+          "tilt": 49.42,
+          "drift": 0.1323,
+          "steps": [
+            11,
+            14
+          ],
+          "stop": 0.9133
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.427,
+          "ripple": 0.0702,
+          "tilt": 3.9,
+          "drift": 0.0382,
+          "steps": [
+            30,
+            29
+          ],
+          "stop": 0.0073
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3232,
+          "ripple": 0.1151,
+          "tilt": 10.4,
+          "drift": 0.4328,
+          "steps": [
+            39,
+            42
+          ],
+          "stop": 0.0953
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.2983,
+          "ripple": 0.1528,
+          "tilt": 48.94,
+          "drift": 0.2448,
+          "steps": [
+            36,
+            30
+          ],
+          "stop": 0.5347
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.074,
+        "reach": 0.0524,
+        "lift": 0.0359,
+        "sway": 0.0342,
+        "stance": 0.555,
+        "blend": 1.224
+      },
+      "stats": {
+        "count": 4,
+        "falls": 2,
+        "v": 0.223,
+        "ripple": 0.0982,
+        "tilt": 51.62,
+        "drift": 0.2551,
+        "min_v": 0.0743,
+        "stop": 0.8161
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0858,
+          "ripple": 0.1227,
+          "tilt": 51.62,
+          "drift": 0.2414,
+          "steps": [
+            7,
+            11
+          ],
+          "stop": 0.8161
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.414,
+          "ripple": 0.0632,
+          "tilt": 5.26,
+          "drift": 0.0352,
+          "steps": [
+            26,
+            31
+          ],
+          "stop": 0.0122
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3181,
+          "ripple": 0.1091,
+          "tilt": 12.56,
+          "drift": 0.1866,
+          "steps": [
+            41,
+            43
+          ],
+          "stop": 0.0102
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0743,
+          "ripple": 0.0978,
+          "tilt": 50.77,
+          "drift": 0.2551,
+          "steps": [
+            8,
+            7
+          ],
+          "stop": 0.7251
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.487,
+        "reach": 0.0551,
+        "lift": 0.0271,
+        "sway": 0.0352,
+        "stance": 0.65,
+        "blend": 0.886
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.1974,
+        "ripple": 0.0816,
+        "tilt": 49.97,
+        "drift": 0.0962,
+        "min_v": 0.1491,
+        "stop": 0.8538
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2191,
+          "ripple": 0.0591,
+          "tilt": 2.42,
+          "drift": 0.0962,
+          "steps": [
+            17,
+            16
+          ],
+          "stop": 0.0002
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2199,
+          "ripple": 0.0591,
+          "tilt": 2.38,
+          "drift": 0.0501,
+          "steps": [
+            24,
+            31
+          ],
+          "stop": 0.005
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2014,
+          "ripple": 0.0787,
+          "tilt": 2.34,
+          "drift": 0.0402,
+          "steps": [
+            38,
+            26
+          ],
+          "stop": 0.0008
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.1491,
+          "ripple": 0.1293,
+          "tilt": 49.97,
+          "drift": 0.0298,
+          "steps": [
+            11,
+            17
+          ],
+          "stop": 0.8538
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.553,
+        "reach": 0.0391,
+        "lift": 0.0249,
+        "sway": 0.0221,
+        "stance": 0.605,
+        "blend": 0.826
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1698,
+        "ripple": 0.0579,
+        "tilt": 4.46,
+        "drift": 0.0465,
+        "min_v": 0.1581,
+        "stop": 0.0187
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1705,
+          "ripple": 0.0508,
+          "tilt": 2.89,
+          "drift": 0.0135,
+          "steps": [
+            21,
+            24
+          ],
+          "stop": 0.0039
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.182,
+          "ripple": 0.0456,
+          "tilt": 2.9,
+          "drift": 0.0465,
+          "steps": [
+            20,
+            27
+          ],
+          "stop": 0.0011
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1581,
+          "ripple": 0.0672,
+          "tilt": 2.8,
+          "drift": 0.0175,
+          "steps": [
+            23,
+            27
+          ],
+          "stop": 0.0043
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1686,
+          "ripple": 0.0681,
+          "tilt": 4.46,
+          "drift": 0.002,
+          "steps": [
+            18,
+            26
+          ],
+          "stop": 0.0187
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.425,
+        "reach": 0.029,
+        "lift": 0.0315,
+        "sway": 0.0302,
+        "stance": 0.609,
+        "blend": 1.21
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2062,
+        "ripple": 0.0663,
+        "tilt": 10.58,
+        "drift": 0.4306,
+        "min_v": 0.1788,
+        "stop": 0.0549
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1788,
+          "ripple": 0.0823,
+          "tilt": 9.96,
+          "drift": 0.2965,
+          "steps": [
+            32,
+            33
+          ],
+          "stop": 0.0549
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2672,
+          "ripple": 0.0348,
+          "tilt": 4.48,
+          "drift": 0.0529,
+          "steps": [
+            20,
+            19
+          ],
+          "stop": 0.0073
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.188,
+          "ripple": 0.0637,
+          "tilt": 9.39,
+          "drift": 0.0863,
+          "steps": [
+            36,
+            34
+          ],
+          "stop": 0.0112
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1908,
+          "ripple": 0.0845,
+          "tilt": 10.58,
+          "drift": 0.4306,
+          "steps": [
+            32,
+            35
+          ],
+          "stop": 0.0118
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.466,
+        "reach": 0.0477,
+        "lift": 0.0177,
+        "sway": 0.0154,
+        "stance": 0.64,
+        "blend": 0.784
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1736,
+        "ripple": 0.0671,
+        "tilt": 4.35,
+        "drift": 0.0774,
+        "min_v": 0.154,
+        "stop": 0.0279
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1787,
+          "ripple": 0.0517,
+          "tilt": 2.77,
+          "drift": 0.0053,
+          "steps": [
+            32,
+            34
+          ],
+          "stop": 0.0064
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1962,
+          "ripple": 0.0457,
+          "tilt": 2.88,
+          "drift": 0.0774,
+          "steps": [
+            24,
+            33
+          ],
+          "stop": 0.0071
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.154,
+          "ripple": 0.0903,
+          "tilt": 2.54,
+          "drift": 0.0592,
+          "steps": [
+            29,
+            39
+          ],
+          "stop": 0.0062
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1654,
+          "ripple": 0.0807,
+          "tilt": 4.35,
+          "drift": 0.0589,
+          "steps": [
+            33,
+            37
+          ],
+          "stop": 0.0279
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.312,
+        "reach": 0.0345,
+        "lift": 0.0358,
+        "sway": 0.0132,
+        "stance": 0.574,
+        "blend": 0.845
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1044,
+        "ripple": 0.0962,
+        "tilt": 15.45,
+        "drift": 0.0474,
+        "min_v": 0.0825,
+        "stop": 0.4011
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.0951,
+          "ripple": 0.103,
+          "tilt": 11.95,
+          "drift": 0.0474,
+          "steps": [
+            12,
+            11
+          ],
+          "stop": 0.2497
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1431,
+          "ripple": 0.0375,
+          "tilt": 4.55,
+          "drift": 0.0026,
+          "steps": [
+            23,
+            26
+          ],
+          "stop": 0.0133
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.0825,
+          "ripple": 0.1199,
+          "tilt": 11.93,
+          "drift": 0.0128,
+          "steps": [
+            15,
+            11
+          ],
+          "stop": 0.4011
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.0968,
+          "ripple": 0.1245,
+          "tilt": 15.45,
+          "drift": 0.0443,
+          "steps": [
+            14,
+            14
+          ],
+          "stop": 0.158
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.278,
+        "reach": 0.0473,
+        "lift": 0.0167,
+        "sway": 0.0188,
+        "stance": 0.492,
+        "blend": 0.862
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1972,
+        "ripple": 0.0845,
+        "tilt": 5.08,
+        "drift": 0.1464,
+        "min_v": 0.1786,
+        "stop": 0.0158
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2054,
+          "ripple": 0.0743,
+          "tilt": 3.18,
+          "drift": 0.0468,
+          "steps": [
+            46,
+            51
+          ],
+          "stop": 0.0122
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.215,
+          "ripple": 0.062,
+          "tilt": 3.02,
+          "drift": 0.1464,
+          "steps": [
+            47,
+            44
+          ],
+          "stop": 0.0101
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1786,
+          "ripple": 0.1007,
+          "tilt": 3.41,
+          "drift": 0.026,
+          "steps": [
+            39,
+            36
+          ],
+          "stop": 0.0158
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1898,
+          "ripple": 0.1011,
+          "tilt": 5.08,
+          "drift": 0.1327,
+          "steps": [
+            45,
+            57
+          ],
+          "stop": 0.0103
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.378,
+        "reach": 0.0371,
+        "lift": 0.0384,
+        "sway": 0.0239,
+        "stance": 0.641,
+        "blend": 0.869
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2497,
+        "ripple": 0.0708,
+        "tilt": 7.22,
+        "drift": 0.451,
+        "min_v": 0.2399,
+        "stop": 0.0182
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2399,
+          "ripple": 0.065,
+          "tilt": 5.96,
+          "drift": 0.0196,
+          "steps": [
+            32,
+            28
+          ],
+          "stop": 0.0055
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2629,
+          "ripple": 0.0603,
+          "tilt": 3.03,
+          "drift": 0.1001,
+          "steps": [
+            42,
+            35
+          ],
+          "stop": 0.0031
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.242,
+          "ripple": 0.0619,
+          "tilt": 7.22,
+          "drift": 0.1135,
+          "steps": [
+            33,
+            32
+          ],
+          "stop": 0.0112
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2538,
+          "ripple": 0.0959,
+          "tilt": 7.0,
+          "drift": 0.451,
+          "steps": [
+            25,
+            25
+          ],
+          "stop": 0.0182
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.028,
+        "reach": 0.0305,
+        "lift": 0.0166,
+        "sway": 0.0176,
+        "stance": 0.651,
+        "blend": 1.216
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1552,
+        "ripple": 0.0485,
+        "tilt": 3.83,
+        "drift": 0.0311,
+        "min_v": 0.1459,
+        "stop": 0.0137
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1569,
+          "ripple": 0.0472,
+          "tilt": 2.06,
+          "drift": 0.0311,
+          "steps": [
+            35,
+            33
+          ],
+          "stop": 0.0059
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1667,
+          "ripple": 0.0412,
+          "tilt": 2.01,
+          "drift": 0.0242,
+          "steps": [
+            39,
+            33
+          ],
+          "stop": 0.005
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1459,
+          "ripple": 0.0554,
+          "tilt": 2.11,
+          "drift": 0.011,
+          "steps": [
+            24,
+            34
+          ],
+          "stop": 0.0062
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1513,
+          "ripple": 0.0502,
+          "tilt": 3.83,
+          "drift": 0.012,
+          "steps": [
+            33,
+            31
+          ],
+          "stop": 0.0137
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.629,
+        "reach": 0.0453,
+        "lift": 0.0317,
+        "sway": 0.0212,
+        "stance": 0.519,
+        "blend": 0.693
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1675,
+        "ripple": 0.1145,
+        "tilt": 10.46,
+        "drift": 0.4481,
+        "min_v": 0.1272,
+        "stop": 0.1218
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1385,
+          "ripple": 0.1241,
+          "tilt": 9.28,
+          "drift": 0.057,
+          "steps": [
+            24,
+            25
+          ],
+          "stop": 0.1218
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2581,
+          "ripple": 0.0648,
+          "tilt": 4.42,
+          "drift": 0.0247,
+          "steps": [
+            26,
+            28
+          ],
+          "stop": 0.0029
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1272,
+          "ripple": 0.1218,
+          "tilt": 9.84,
+          "drift": 0.007,
+          "steps": [
+            30,
+            34
+          ],
+          "stop": 0.0642
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1463,
+          "ripple": 0.1474,
+          "tilt": 10.46,
+          "drift": 0.4481,
+          "steps": [
+            20,
+            22
+          ],
+          "stop": 0.0747
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.617,
+        "reach": 0.0373,
+        "lift": 0.0182,
+        "sway": 0.0287,
+        "stance": 0.534,
+        "blend": 1.149
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1956,
+        "ripple": 0.0686,
+        "tilt": 4.85,
+        "drift": 0.1056,
+        "min_v": 0.1819,
+        "stop": 0.0069
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1963,
+          "ripple": 0.0669,
+          "tilt": 2.92,
+          "drift": 0.0265,
+          "steps": [
+            20,
+            29
+          ],
+          "stop": 0.0043
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2075,
+          "ripple": 0.0497,
+          "tilt": 2.72,
+          "drift": 0.0275,
+          "steps": [
+            30,
+            30
+          ],
+          "stop": 0.0021
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1819,
+          "ripple": 0.0804,
+          "tilt": 3.08,
+          "drift": 0.0182,
+          "steps": [
+            32,
+            34
+          ],
+          "stop": 0.0046
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1965,
+          "ripple": 0.0774,
+          "tilt": 4.85,
+          "drift": 0.1056,
+          "steps": [
+            27,
+            26
+          ],
+          "stop": 0.0069
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.049,
+        "reach": 0.0336,
+        "lift": 0.016,
+        "sway": 0.033,
+        "stance": 0.5,
+        "blend": 0.705
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.0925,
+        "ripple": 0.2079,
+        "tilt": 49.19,
+        "drift": 0.1769,
+        "min_v": -0.0233,
+        "stop": 0.7246
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.0606,
+          "ripple": 0.2767,
+          "tilt": 24.39,
+          "drift": 0.0541,
+          "steps": [
+            27,
+            24
+          ],
+          "stop": 0.1031
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2738,
+          "ripple": 0.0431,
+          "tilt": 6.07,
+          "drift": 0.0229,
+          "steps": [
+            32,
+            31
+          ],
+          "stop": 0.0045
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.059,
+          "ripple": 0.2351,
+          "tilt": 14.33,
+          "drift": 0.0352,
+          "steps": [
+            42,
+            40
+          ],
+          "stop": 0.1448
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": -0.0233,
+          "ripple": 0.2769,
+          "tilt": 49.19,
+          "drift": 0.1769,
+          "steps": [
+            13,
+            18
+          ],
+          "stop": 0.7246
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.624,
+        "reach": 0.0307,
+        "lift": 0.0253,
+        "sway": 0.0281,
+        "stance": 0.545,
+        "blend": 0.797
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1591,
+        "ripple": 0.0564,
+        "tilt": 4.63,
+        "drift": 0.1225,
+        "min_v": 0.1514,
+        "stop": 0.0059
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1587,
+          "ripple": 0.0558,
+          "tilt": 2.8,
+          "drift": 0.0046,
+          "steps": [
+            15,
+            17
+          ],
+          "stop": 0.0026
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.168,
+          "ripple": 0.0417,
+          "tilt": 2.72,
+          "drift": 0.014,
+          "steps": [
+            15,
+            17
+          ],
+          "stop": 0.0059
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1514,
+          "ripple": 0.0637,
+          "tilt": 2.89,
+          "drift": 0.01,
+          "steps": [
+            23,
+            21
+          ],
+          "stop": 0.0024
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1585,
+          "ripple": 0.0643,
+          "tilt": 4.63,
+          "drift": 0.1225,
+          "steps": [
+            18,
+            16
+          ],
+          "stop": 0.0054
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.657,
+        "reach": 0.0509,
+        "lift": 0.0217,
+        "sway": 0.0179,
+        "stance": 0.617,
+        "blend": 0.925
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2245,
+        "ripple": 0.0804,
+        "tilt": 4.9,
+        "drift": 0.165,
+        "min_v": 0.1977,
+        "stop": 0.0231
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2327,
+          "ripple": 0.066,
+          "tilt": 2.94,
+          "drift": 0.0025,
+          "steps": [
+            29,
+            31
+          ],
+          "stop": 0.0083
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.244,
+          "ripple": 0.0607,
+          "tilt": 2.85,
+          "drift": 0.0861,
+          "steps": [
+            39,
+            36
+          ],
+          "stop": 0.0066
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1977,
+          "ripple": 0.1079,
+          "tilt": 3.46,
+          "drift": 0.0833,
+          "steps": [
+            40,
+            40
+          ],
+          "stop": 0.0171
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2238,
+          "ripple": 0.087,
+          "tilt": 4.9,
+          "drift": 0.165,
+          "steps": [
+            30,
+            34
+          ],
+          "stop": 0.0231
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.753,
+        "reach": 0.0302,
+        "lift": 0.0194,
+        "sway": 0.0274,
+        "stance": 0.61,
+        "blend": 0.785
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1454,
+        "ripple": 0.05,
+        "tilt": 3.96,
+        "drift": 0.1011,
+        "min_v": 0.1393,
+        "stop": 0.0051
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1463,
+          "ripple": 0.0476,
+          "tilt": 2.07,
+          "drift": 0.0099,
+          "steps": [
+            24,
+            23
+          ],
+          "stop": 0.0045
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1547,
+          "ripple": 0.0405,
+          "tilt": 2.04,
+          "drift": 0.0012,
+          "steps": [
+            30,
+            29
+          ],
+          "stop": 0.0051
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1393,
+          "ripple": 0.055,
+          "tilt": 2.05,
+          "drift": 0.0198,
+          "steps": [
+            21,
+            18
+          ],
+          "stop": 0.0045
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1412,
+          "ripple": 0.057,
+          "tilt": 3.96,
+          "drift": 0.1011,
+          "steps": [
+            23,
+            23
+          ],
+          "stop": 0.0049
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.777,
+        "reach": 0.0338,
+        "lift": 0.0366,
+        "sway": 0.0272,
+        "stance": 0.522,
+        "blend": 0.978
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1713,
+        "ripple": 0.078,
+        "tilt": 10.06,
+        "drift": 0.2992,
+        "min_v": 0.1128,
+        "stop": 0.2084
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2081,
+          "ripple": 0.049,
+          "tilt": 4.68,
+          "drift": 0.0252,
+          "steps": [
+            15,
+            16
+          ],
+          "stop": 0.0082
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2155,
+          "ripple": 0.0491,
+          "tilt": 3.75,
+          "drift": 0.0308,
+          "steps": [
+            19,
+            21
+          ],
+          "stop": 0.0089
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1128,
+          "ripple": 0.1156,
+          "tilt": 10.06,
+          "drift": 0.2992,
+          "steps": [
+            20,
+            38
+          ],
+          "stop": 0.2084
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1488,
+          "ripple": 0.0983,
+          "tilt": 9.03,
+          "drift": 0.0874,
+          "steps": [
+            20,
+            19
+          ],
+          "stop": 0.1879
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.663,
+        "reach": 0.0515,
+        "lift": 0.0341,
+        "sway": 0.036,
+        "stance": 0.504,
+        "blend": 1.091
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.2517,
+        "ripple": 0.1364,
+        "tilt": 49.67,
+        "drift": 1.1147,
+        "min_v": 0.1591,
+        "stop": 0.7246
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3175,
+          "ripple": 0.0631,
+          "tilt": 3.48,
+          "drift": 0.0925,
+          "steps": [
+            13,
+            15
+          ],
+          "stop": 0.0116
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3316,
+          "ripple": 0.0714,
+          "tilt": 3.44,
+          "drift": 0.0677,
+          "steps": [
+            14,
+            24
+          ],
+          "stop": 0.0117
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1591,
+          "ripple": 0.1872,
+          "tilt": 22.77,
+          "drift": 1.1147,
+          "steps": [
+            39,
+            32
+          ],
+          "stop": 0.2051
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.1986,
+          "ripple": 0.2239,
+          "tilt": 49.67,
+          "drift": 0.4814,
+          "steps": [
+            23,
+            22
+          ],
+          "stop": 0.7246
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.362,
+        "reach": 0.0417,
+        "lift": 0.021,
+        "sway": 0.0359,
+        "stance": 0.595,
+        "blend": 0.962
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1637,
+        "ripple": 0.057,
+        "tilt": 4.06,
+        "drift": 0.2451,
+        "min_v": 0.1519,
+        "stop": 0.0062
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1664,
+          "ripple": 0.0446,
+          "tilt": 2.51,
+          "drift": 0.0663,
+          "steps": [
+            28,
+            19
+          ],
+          "stop": 0.0037
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1759,
+          "ripple": 0.0385,
+          "tilt": 2.45,
+          "drift": 0.0479,
+          "steps": [
+            23,
+            24
+          ],
+          "stop": 0.0006
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1519,
+          "ripple": 0.0625,
+          "tilt": 2.44,
+          "drift": 0.0482,
+          "steps": [
+            30,
+            24
+          ],
+          "stop": 0.0042
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1605,
+          "ripple": 0.0822,
+          "tilt": 4.06,
+          "drift": 0.2451,
+          "steps": [
+            20,
+            18
+          ],
+          "stop": 0.0062
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.976,
+        "reach": 0.0574,
+        "lift": 0.0168,
+        "sway": 0.0144,
+        "stance": 0.664,
+        "blend": 0.616
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2742,
+        "ripple": 0.0836,
+        "tilt": 4.81,
+        "drift": 0.2474,
+        "min_v": 0.2312,
+        "stop": 0.0172
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2962,
+          "ripple": 0.0798,
+          "tilt": 2.72,
+          "drift": 0.071,
+          "steps": [
+            43,
+            44
+          ],
+          "stop": 0.0069
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.295,
+          "ripple": 0.0651,
+          "tilt": 2.21,
+          "drift": 0.0233,
+          "steps": [
+            38,
+            49
+          ],
+          "stop": 0.0057
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2312,
+          "ripple": 0.1083,
+          "tilt": 3.48,
+          "drift": 0.0941,
+          "steps": [
+            59,
+            61
+          ],
+          "stop": 0.0172
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2743,
+          "ripple": 0.0813,
+          "tilt": 4.81,
+          "drift": 0.2474,
+          "steps": [
+            43,
+            52
+          ],
+          "stop": 0.0141
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.054,
+        "reach": 0.028,
+        "lift": 0.0361,
+        "sway": 0.026,
+        "stance": 0.61,
+        "blend": 0.978
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1695,
+        "ripple": 0.0568,
+        "tilt": 8.64,
+        "drift": 0.0918,
+        "min_v": 0.16,
+        "stop": 0.1403
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.16,
+          "ripple": 0.0617,
+          "tilt": 8.64,
+          "drift": 0.0918,
+          "steps": [
+            21,
+            21
+          ],
+          "stop": 0.1403
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1828,
+          "ripple": 0.0497,
+          "tilt": 2.58,
+          "drift": 0.042,
+          "steps": [
+            22,
+            25
+          ],
+          "stop": 0.0036
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1649,
+          "ripple": 0.053,
+          "tilt": 8.52,
+          "drift": 0.0596,
+          "steps": [
+            18,
+            22
+          ],
+          "stop": 0.0122
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1703,
+          "ripple": 0.0629,
+          "tilt": 8.31,
+          "drift": 0.0181,
+          "steps": [
+            20,
+            20
+          ],
+          "stop": 0.1067
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.662,
+        "reach": 0.0281,
+        "lift": 0.033,
+        "sway": 0.0146,
+        "stance": 0.623,
+        "blend": 0.751
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1288,
+        "ripple": 0.0444,
+        "tilt": 5.04,
+        "drift": 0.0275,
+        "min_v": 0.1237,
+        "stop": 0.0132
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1275,
+          "ripple": 0.0433,
+          "tilt": 3.27,
+          "drift": 0.0186,
+          "steps": [
+            13,
+            14
+          ],
+          "stop": 0.0092
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.137,
+          "ripple": 0.0363,
+          "tilt": 3.15,
+          "drift": 0.0275,
+          "steps": [
+            14,
+            14
+          ],
+          "stop": 0.0094
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1237,
+          "ripple": 0.0463,
+          "tilt": 3.59,
+          "drift": 0.0237,
+          "steps": [
+            14,
+            14
+          ],
+          "stop": 0.0098
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.127,
+          "ripple": 0.0517,
+          "tilt": 5.04,
+          "drift": 0.0129,
+          "steps": [
+            15,
+            14
+          ],
+          "stop": 0.0132
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.993,
+        "reach": 0.0363,
+        "lift": 0.0277,
+        "sway": 0.0154,
+        "stance": 0.56,
+        "blend": 0.793
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1879,
+        "ripple": 0.0834,
+        "tilt": 7.57,
+        "drift": 0.0654,
+        "min_v": 0.131,
+        "stop": 0.1306
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2137,
+          "ripple": 0.0758,
+          "tilt": 3.51,
+          "drift": 0.0201,
+          "steps": [
+            35,
+            32
+          ],
+          "stop": 0.0026
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2305,
+          "ripple": 0.055,
+          "tilt": 3.25,
+          "drift": 0.0294,
+          "steps": [
+            29,
+            36
+          ],
+          "stop": 0.003
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.131,
+          "ripple": 0.1025,
+          "tilt": 6.98,
+          "drift": 0.0654,
+          "steps": [
+            30,
+            31
+          ],
+          "stop": 0.114
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1762,
+          "ripple": 0.1003,
+          "tilt": 7.57,
+          "drift": 0.059,
+          "steps": [
+            27,
+            34
+          ],
+          "stop": 0.1306
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.292,
+        "reach": 0.0509,
+        "lift": 0.0259,
+        "sway": 0.0284,
+        "stance": 0.658,
+        "blend": 0.861
+      },
+      "stats": {
+        "count": 4,
+        "falls": 2,
+        "v": 0.2078,
+        "ripple": 0.1703,
+        "tilt": 49.05,
+        "drift": 0.9181,
+        "min_v": 0.1161,
+        "stop": 0.6103
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.2412,
+          "ripple": 0.2147,
+          "tilt": 49.05,
+          "drift": 0.9181,
+          "steps": [
+            30,
+            31
+          ],
+          "stop": 0.515
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3243,
+          "ripple": 0.065,
+          "tilt": 2.73,
+          "drift": 0.0475,
+          "steps": [
+            60,
+            54
+          ],
+          "stop": 0.01
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.1161,
+          "ripple": 0.2052,
+          "tilt": 48.33,
+          "drift": 0.2931,
+          "steps": [
+            30,
+            28
+          ],
+          "stop": 0.6103
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1497,
+          "ripple": 0.1964,
+          "tilt": 23.71,
+          "drift": 0.8794,
+          "steps": [
+            36,
+            46
+          ],
+          "stop": 0.0373
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.963,
+        "reach": 0.0331,
+        "lift": 0.0369,
+        "sway": 0.0274,
+        "stance": 0.493,
+        "blend": 1.162
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2104,
+        "ripple": 0.0721,
+        "tilt": 10.02,
+        "drift": 0.0568,
+        "min_v": 0.15,
+        "stop": 0.1778
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2494,
+          "ripple": 0.0358,
+          "tilt": 3.2,
+          "drift": 0.0459,
+          "steps": [
+            16,
+            19
+          ],
+          "stop": 0.0074
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2571,
+          "ripple": 0.0566,
+          "tilt": 4.63,
+          "drift": 0.0451,
+          "steps": [
+            21,
+            22
+          ],
+          "stop": 0.0078
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.15,
+          "ripple": 0.1048,
+          "tilt": 8.58,
+          "drift": 0.0568,
+          "steps": [
+            27,
+            34
+          ],
+          "stop": 0.1042
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1852,
+          "ripple": 0.0914,
+          "tilt": 10.02,
+          "drift": 0.0182,
+          "steps": [
+            16,
+            24
+          ],
+          "stop": 0.1778
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.438,
+        "reach": 0.0319,
+        "lift": 0.0271,
+        "sway": 0.0338,
+        "stance": 0.552,
+        "blend": 0.917
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1827,
+        "ripple": 0.159,
+        "tilt": 20.76,
+        "drift": 0.7839,
+        "min_v": 0.1246,
+        "stop": 0.2445
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1351,
+          "ripple": 0.2419,
+          "tilt": 13.86,
+          "drift": 0.7839,
+          "steps": [
+            40,
+            43
+          ],
+          "stop": 0.0277
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2824,
+          "ripple": 0.03,
+          "tilt": 7.08,
+          "drift": 0.1088,
+          "steps": [
+            30,
+            25
+          ],
+          "stop": 0.0055
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1246,
+          "ripple": 0.1704,
+          "tilt": 20.76,
+          "drift": 0.7578,
+          "steps": [
+            37,
+            54
+          ],
+          "stop": 0.2445
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1886,
+          "ripple": 0.1935,
+          "tilt": 13.75,
+          "drift": 0.6261,
+          "steps": [
+            38,
+            38
+          ],
+          "stop": 0.0147
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.537,
+        "reach": 0.0425,
+        "lift": 0.0228,
+        "sway": 0.0228,
+        "stance": 0.513,
+        "blend": 0.797
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2102,
+        "ripple": 0.0947,
+        "tilt": 6.19,
+        "drift": 0.1209,
+        "min_v": 0.1872,
+        "stop": 0.0102
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2129,
+          "ripple": 0.0899,
+          "tilt": 3.84,
+          "drift": 0.0149,
+          "steps": [
+            24,
+            23
+          ],
+          "stop": 0.0083
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2291,
+          "ripple": 0.0629,
+          "tilt": 3.46,
+          "drift": 0.0887,
+          "steps": [
+            28,
+            29
+          ],
+          "stop": 0.0102
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1872,
+          "ripple": 0.1199,
+          "tilt": 4.53,
+          "drift": 0.1209,
+          "steps": [
+            34,
+            40
+          ],
+          "stop": 0.0065
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2115,
+          "ripple": 0.106,
+          "tilt": 6.19,
+          "drift": 0.0464,
+          "steps": [
+            28,
+            29
+          ],
+          "stop": 0.0058
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.488,
+        "reach": 0.0516,
+        "lift": 0.0188,
+        "sway": 0.0201,
+        "stance": 0.633,
+        "blend": 0.808
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1984,
+        "ripple": 0.0716,
+        "tilt": 4.39,
+        "drift": 0.15,
+        "min_v": 0.1728,
+        "stop": 0.0058
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2059,
+          "ripple": 0.0551,
+          "tilt": 2.72,
+          "drift": 0.0383,
+          "steps": [
+            30,
+            29
+          ],
+          "stop": 0.0033
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2177,
+          "ripple": 0.051,
+          "tilt": 2.77,
+          "drift": 0.123,
+          "steps": [
+            26,
+            38
+          ],
+          "stop": 0.0035
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1728,
+          "ripple": 0.0993,
+          "tilt": 2.7,
+          "drift": 0.0069,
+          "steps": [
+            37,
+            40
+          ],
+          "stop": 0.0051
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1971,
+          "ripple": 0.0808,
+          "tilt": 4.39,
+          "drift": 0.15,
+          "steps": [
+            33,
+            34
+          ],
+          "stop": 0.0058
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.535,
+        "reach": 0.0554,
+        "lift": 0.0232,
+        "sway": 0.023,
+        "stance": 0.547,
+        "blend": 0.588
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2551,
+        "ripple": 0.1102,
+        "tilt": 7.08,
+        "drift": 0.2066,
+        "min_v": 0.225,
+        "stop": 0.0206
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2645,
+          "ripple": 0.0944,
+          "tilt": 3.91,
+          "drift": 0.0686,
+          "steps": [
+            43,
+            32
+          ],
+          "stop": 0.0206
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2779,
+          "ripple": 0.0745,
+          "tilt": 3.53,
+          "drift": 0.2066,
+          "steps": [
+            35,
+            31
+          ],
+          "stop": 0.0133
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.225,
+          "ripple": 0.1417,
+          "tilt": 5.28,
+          "drift": 0.1589,
+          "steps": [
+            35,
+            49
+          ],
+          "stop": 0.0166
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2531,
+          "ripple": 0.1303,
+          "tilt": 7.08,
+          "drift": 0.1145,
+          "steps": [
+            28,
+            39
+          ],
+          "stop": 0.001
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.904,
+        "reach": 0.0358,
+        "lift": 0.025,
+        "sway": 0.0317,
+        "stance": 0.601,
+        "blend": 1.044
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1683,
+        "ripple": 0.1217,
+        "tilt": 14.62,
+        "drift": 0.7785,
+        "min_v": 0.1293,
+        "stop": 0.0379
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1293,
+          "ripple": 0.2161,
+          "tilt": 14.62,
+          "drift": 0.7785,
+          "steps": [
+            22,
+            28
+          ],
+          "stop": 0.0379
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2132,
+          "ripple": 0.0554,
+          "tilt": 3.08,
+          "drift": 0.06,
+          "steps": [
+            41,
+            37
+          ],
+          "stop": 0.0057
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1779,
+          "ripple": 0.0918,
+          "tilt": 8.72,
+          "drift": 0.2409,
+          "steps": [
+            24,
+            37
+          ],
+          "stop": 0.0167
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1526,
+          "ripple": 0.1236,
+          "tilt": 10.98,
+          "drift": 0.3137,
+          "steps": [
+            24,
+            30
+          ],
+          "stop": 0.0271
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.291,
+        "reach": 0.0582,
+        "lift": 0.0314,
+        "sway": 0.0276,
+        "stance": 0.51,
+        "blend": 0.54
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2237,
+        "ripple": 0.127,
+        "tilt": 13.55,
+        "drift": 0.0954,
+        "min_v": 0.1779,
+        "stop": 0.1441
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2495,
+          "ripple": 0.1122,
+          "tilt": 4.77,
+          "drift": 0.0476,
+          "steps": [
+            34,
+            31
+          ],
+          "stop": 0.0026
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2663,
+          "ripple": 0.0748,
+          "tilt": 4.0,
+          "drift": 0.053,
+          "steps": [
+            28,
+            32
+          ],
+          "stop": 0.0042
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1779,
+          "ripple": 0.1685,
+          "tilt": 12.83,
+          "drift": 0.0734,
+          "steps": [
+            41,
+            39
+          ],
+          "stop": 0.1441
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.201,
+          "ripple": 0.1527,
+          "tilt": 13.55,
+          "drift": 0.0954,
+          "steps": [
+            35,
+            36
+          ],
+          "stop": 0.0622
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.162,
+        "reach": 0.053,
+        "lift": 0.0324,
+        "sway": 0.0258,
+        "stance": 0.609,
+        "blend": 0.664
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.31,
+        "ripple": 0.1189,
+        "tilt": 50.31,
+        "drift": 0.5703,
+        "min_v": 0.2278,
+        "stop": 0.705
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.2278,
+          "ripple": 0.1878,
+          "tilt": 50.31,
+          "drift": 0.5703,
+          "steps": [
+            24,
+            24
+          ],
+          "stop": 0.705
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3614,
+          "ripple": 0.0744,
+          "tilt": 3.12,
+          "drift": 0.0653,
+          "steps": [
+            52,
+            47
+          ],
+          "stop": 0.0131
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3232,
+          "ripple": 0.0892,
+          "tilt": 8.17,
+          "drift": 0.062,
+          "steps": [
+            35,
+            38
+          ],
+          "stop": 0.0113
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3275,
+          "ripple": 0.1243,
+          "tilt": 11.12,
+          "drift": 0.2219,
+          "steps": [
+            33,
+            33
+          ],
+          "stop": 0.0067
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.614,
+        "reach": 0.0384,
+        "lift": 0.0222,
+        "sway": 0.0355,
+        "stance": 0.633,
+        "blend": 0.951
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.16,
+        "ripple": 0.074,
+        "tilt": 14.89,
+        "drift": 0.0786,
+        "min_v": 0.1355,
+        "stop": 0.0219
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1718,
+          "ripple": 0.0484,
+          "tilt": 2.2,
+          "drift": 0.0086,
+          "steps": [
+            17,
+            18
+          ],
+          "stop": 0.002
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1685,
+          "ripple": 0.0508,
+          "tilt": 2.21,
+          "drift": 0.0041,
+          "steps": [
+            24,
+            22
+          ],
+          "stop": 0.0039
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1641,
+          "ripple": 0.054,
+          "tilt": 2.14,
+          "drift": 0.023,
+          "steps": [
+            17,
+            19
+          ],
+          "stop": 0.0024
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1355,
+          "ripple": 0.1429,
+          "tilt": 14.89,
+          "drift": 0.0786,
+          "steps": [
+            18,
+            24
+          ],
+          "stop": 0.0219
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.823,
+        "reach": 0.0432,
+        "lift": 0.0217,
+        "sway": 0.0292,
+        "stance": 0.656,
+        "blend": 0.905
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.169,
+        "ripple": 0.1144,
+        "tilt": 50.78,
+        "drift": 0.0475,
+        "min_v": 0.0734,
+        "stop": 0.8289
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2058,
+          "ripple": 0.0586,
+          "tilt": 2.28,
+          "drift": 0.0149,
+          "steps": [
+            25,
+            34
+          ],
+          "stop": 0.0081
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2037,
+          "ripple": 0.0578,
+          "tilt": 2.22,
+          "drift": 0.0213,
+          "steps": [
+            33,
+            40
+          ],
+          "stop": 0.0056
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1931,
+          "ripple": 0.0711,
+          "tilt": 2.36,
+          "drift": 0.0107,
+          "steps": [
+            34,
+            34
+          ],
+          "stop": 0.0078
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0734,
+          "ripple": 0.2701,
+          "tilt": 50.78,
+          "drift": 0.0475,
+          "steps": [
+            16,
+            9
+          ],
+          "stop": 0.8289
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.334,
+        "reach": 0.0324,
+        "lift": 0.0181,
+        "sway": 0.0279,
+        "stance": 0.601,
+        "blend": 1.157
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1202,
+        "ripple": 0.0411,
+        "tilt": 4.15,
+        "drift": 0.0134,
+        "min_v": 0.1107,
+        "stop": 0.0091
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1203,
+          "ripple": 0.0352,
+          "tilt": 2.54,
+          "drift": 0.0134,
+          "steps": [
+            23,
+            24
+          ],
+          "stop": 0.0072
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1309,
+          "ripple": 0.0284,
+          "tilt": 2.47,
+          "drift": 0.0073,
+          "steps": [
+            19,
+            30
+          ],
+          "stop": 0.0091
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1107,
+          "ripple": 0.0459,
+          "tilt": 2.44,
+          "drift": 0.0068,
+          "steps": [
+            15,
+            22
+          ],
+          "stop": 0.0068
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1189,
+          "ripple": 0.0547,
+          "tilt": 4.15,
+          "drift": 0.0051,
+          "steps": [
+            20,
+            20
+          ],
+          "stop": 0.0064
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.031,
+        "reach": 0.0552,
+        "lift": 0.0242,
+        "sway": 0.0365,
+        "stance": 0.658,
+        "blend": 1.283
+      },
+      "stats": {
+        "count": 4,
+        "falls": 3,
+        "v": 0.1,
+        "ripple": 0.203,
+        "tilt": 52.0,
+        "drift": 0.2541,
+        "min_v": 0.0037,
+        "stop": 1.0228
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0738,
+          "ripple": 0.1581,
+          "tilt": 52.0,
+          "drift": 0.2541,
+          "steps": [
+            9,
+            8
+          ],
+          "stop": 1.0228
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3002,
+          "ripple": 0.0735,
+          "tilt": 3.4,
+          "drift": 0.0177,
+          "steps": [
+            52,
+            49
+          ],
+          "stop": 0.0099
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0037,
+          "ripple": 0.3038,
+          "tilt": 49.98,
+          "drift": 0.1671,
+          "steps": [
+            6,
+            13
+          ],
+          "stop": 0.7972
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0222,
+          "ripple": 0.2767,
+          "tilt": 49.44,
+          "drift": 0.23,
+          "steps": [
+            23,
+            22
+          ],
+          "stop": 0.6291
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.25,
+        "reach": 0.046,
+        "lift": 0.0325,
+        "sway": 0.0218,
+        "stance": 0.493,
+        "blend": 0.713
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2885,
+        "ripple": 0.1047,
+        "tilt": 8.4,
+        "drift": 1.2687,
+        "min_v": 0.2288,
+        "stop": 0.1202
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2754,
+          "ripple": 0.1131,
+          "tilt": 7.32,
+          "drift": 0.4992,
+          "steps": [
+            45,
+            37
+          ],
+          "stop": 0.0254
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3967,
+          "ripple": 0.0645,
+          "tilt": 4.64,
+          "drift": 0.0837,
+          "steps": [
+            43,
+            25
+          ],
+          "stop": 0.001
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2532,
+          "ripple": 0.1098,
+          "tilt": 8.25,
+          "drift": 0.0219,
+          "steps": [
+            38,
+            44
+          ],
+          "stop": 0.1143
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2288,
+          "ripple": 0.1313,
+          "tilt": 8.4,
+          "drift": 1.2687,
+          "steps": [
+            33,
+            36
+          ],
+          "stop": 0.1202
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.56,
+        "reach": 0.0485,
+        "lift": 0.0212,
+        "sway": 0.0362,
+        "stance": 0.65,
+        "blend": 0.582
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.1648,
+        "ripple": 0.0852,
+        "tilt": 50.55,
+        "drift": 0.0615,
+        "min_v": 0.0808,
+        "stop": 0.9281
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1997,
+          "ripple": 0.0561,
+          "tilt": 2.35,
+          "drift": 0.0615,
+          "steps": [
+            21,
+            30
+          ],
+          "stop": 0.0078
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.196,
+          "ripple": 0.0547,
+          "tilt": 2.26,
+          "drift": 0.0403,
+          "steps": [
+            26,
+            31
+          ],
+          "stop": 0.0067
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1828,
+          "ripple": 0.0749,
+          "tilt": 2.34,
+          "drift": 0.0111,
+          "steps": [
+            30,
+            37
+          ],
+          "stop": 0.0086
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0808,
+          "ripple": 0.155,
+          "tilt": 50.55,
+          "drift": 0.0438,
+          "steps": [
+            7,
+            9
+          ],
+          "stop": 0.9281
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.287,
+        "reach": 0.0328,
+        "lift": 0.0205,
+        "sway": 0.0214,
+        "stance": 0.496,
+        "blend": 1.247
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2603,
+        "ripple": 0.0715,
+        "tilt": 10.07,
+        "drift": 0.4254,
+        "min_v": 0.2334,
+        "stop": 0.0085
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2724,
+          "ripple": 0.0474,
+          "tilt": 2.72,
+          "drift": 0.0901,
+          "steps": [
+            41,
+            34
+          ],
+          "stop": 0.0051
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2812,
+          "ripple": 0.0518,
+          "tilt": 2.69,
+          "drift": 0.109,
+          "steps": [
+            42,
+            30
+          ],
+          "stop": 0.0085
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2542,
+          "ripple": 0.0641,
+          "tilt": 3.24,
+          "drift": 0.0334,
+          "steps": [
+            38,
+            38
+          ],
+          "stop": 0.0051
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2334,
+          "ripple": 0.1227,
+          "tilt": 10.07,
+          "drift": 0.4254,
+          "steps": [
+            31,
+            32
+          ],
+          "stop": 0.0004
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.844,
+        "reach": 0.0516,
+        "lift": 0.0257,
+        "sway": 0.0177,
+        "stance": 0.502,
+        "blend": 0.69
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2681,
+        "ripple": 0.1199,
+        "tilt": 11.34,
+        "drift": 0.4171,
+        "min_v": 0.1873,
+        "stop": 0.1927
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3216,
+          "ripple": 0.1021,
+          "tilt": 5.16,
+          "drift": 0.0655,
+          "steps": [
+            28,
+            34
+          ],
+          "stop": 0.0152
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3334,
+          "ripple": 0.0814,
+          "tilt": 4.64,
+          "drift": 0.0923,
+          "steps": [
+            28,
+            39
+          ],
+          "stop": 0.0109
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1873,
+          "ripple": 0.1468,
+          "tilt": 11.34,
+          "drift": 0.4171,
+          "steps": [
+            50,
+            51
+          ],
+          "stop": 0.0217
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2303,
+          "ripple": 0.1493,
+          "tilt": 10.49,
+          "drift": 0.4144,
+          "steps": [
+            39,
+            38
+          ],
+          "stop": 0.1927
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.273,
+        "reach": 0.0537,
+        "lift": 0.0209,
+        "sway": 0.0325,
+        "stance": 0.652,
+        "blend": 0.836
+      },
+      "stats": {
+        "count": 4,
+        "falls": 3,
+        "v": 0.1009,
+        "ripple": 0.2195,
+        "tilt": 51.62,
+        "drift": 0.381,
+        "min_v": -0.0016,
+        "stop": 0.7996
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": true,
+          "v": -0.0003,
+          "ripple": 0.3298,
+          "tilt": 50.63,
+          "drift": 0.1505,
+          "steps": [
+            17,
+            15
+          ],
+          "stop": 0.6016
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3411,
+          "ripple": 0.0649,
+          "tilt": 3.43,
+          "drift": 0.381,
+          "steps": [
+            63,
+            55
+          ],
+          "stop": 0.0138
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0643,
+          "ripple": 0.1716,
+          "tilt": 50.52,
+          "drift": 0.1517,
+          "steps": [
+            8,
+            12
+          ],
+          "stop": 0.7112
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": -0.0016,
+          "ripple": 0.3118,
+          "tilt": 51.62,
+          "drift": 0.1906,
+          "steps": [
+            14,
+            9
+          ],
+          "stop": 0.7996
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.45,
+        "reach": 0.0463,
+        "lift": 0.0257,
+        "sway": 0.0262,
+        "stance": 0.65,
+        "blend": 1.107
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2401,
+        "ripple": 0.1548,
+        "tilt": 20.51,
+        "drift": 1.2885,
+        "min_v": 0.122,
+        "stop": 0.0416
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.122,
+          "ripple": 0.2712,
+          "tilt": 12.62,
+          "drift": 1.2885,
+          "steps": [
+            31,
+            31
+          ],
+          "stop": 0.0033
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3226,
+          "ripple": 0.0621,
+          "tilt": 2.67,
+          "drift": 0.0213,
+          "steps": [
+            59,
+            57
+          ],
+          "stop": 0.0082
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2661,
+          "ripple": 0.1119,
+          "tilt": 8.26,
+          "drift": 0.8604,
+          "steps": [
+            40,
+            38
+          ],
+          "stop": 0.0416
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2498,
+          "ripple": 0.174,
+          "tilt": 20.51,
+          "drift": 0.0187,
+          "steps": [
+            38,
+            38
+          ],
+          "stop": 0.032
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.094,
+        "reach": 0.0501,
+        "lift": 0.0168,
+        "sway": 0.0189,
+        "stance": 0.541,
+        "blend": 1.091
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.3303,
+        "ripple": 0.0834,
+        "tilt": 5.02,
+        "drift": 0.1694,
+        "min_v": 0.3012,
+        "stop": 0.0074
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3433,
+          "ripple": 0.0784,
+          "tilt": 2.95,
+          "drift": 0.1266,
+          "steps": [
+            37,
+            42
+          ],
+          "stop": 0.0074
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.34,
+          "ripple": 0.069,
+          "tilt": 2.62,
+          "drift": 0.0733,
+          "steps": [
+            44,
+            54
+          ],
+          "stop": 0.0065
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3012,
+          "ripple": 0.1084,
+          "tilt": 3.35,
+          "drift": 0.1694,
+          "steps": [
+            35,
+            46
+          ],
+          "stop": 0.0065
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3367,
+          "ripple": 0.0776,
+          "tilt": 5.02,
+          "drift": 0.1646,
+          "steps": [
+            36,
+            45
+          ],
+          "stop": 0.0041
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.024,
+        "reach": 0.0376,
+        "lift": 0.0224,
+        "sway": 0.0278,
+        "stance": 0.604,
+        "blend": 0.77
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.155,
+        "ripple": 0.1225,
+        "tilt": 52.26,
+        "drift": 0.6323,
+        "min_v": 0.0375,
+        "stop": 0.8173
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1981,
+          "ripple": 0.0879,
+          "tilt": 8.58,
+          "drift": 0.0908,
+          "steps": [
+            24,
+            27
+          ],
+          "stop": 0.008
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.231,
+          "ripple": 0.0572,
+          "tilt": 2.56,
+          "drift": 0.0399,
+          "steps": [
+            34,
+            43
+          ],
+          "stop": 0.006
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1533,
+          "ripple": 0.1504,
+          "tilt": 10.38,
+          "drift": 0.6323,
+          "steps": [
+            33,
+            35
+          ],
+          "stop": 0.0229
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.0375,
+          "ripple": 0.1944,
+          "tilt": 52.26,
+          "drift": 0.0579,
+          "steps": [
+            12,
+            17
+          ],
+          "stop": 0.8173
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.187,
+        "reach": 0.0438,
+        "lift": 0.0219,
+        "sway": 0.0192,
+        "stance": 0.491,
+        "blend": 0.766
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2913,
+        "ripple": 0.1109,
+        "tilt": 24.08,
+        "drift": 1.0913,
+        "min_v": 0.1693,
+        "stop": 0.0487
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3397,
+          "ripple": 0.0688,
+          "tilt": 3.42,
+          "drift": 0.0396,
+          "steps": [
+            40,
+            35
+          ],
+          "stop": 0.003
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.347,
+          "ripple": 0.0637,
+          "tilt": 3.27,
+          "drift": 0.0922,
+          "steps": [
+            37,
+            40
+          ],
+          "stop": 0.0029
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3092,
+          "ripple": 0.0973,
+          "tilt": 4.73,
+          "drift": 0.2798,
+          "steps": [
+            43,
+            38
+          ],
+          "stop": 0.0031
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1693,
+          "ripple": 0.2139,
+          "tilt": 24.08,
+          "drift": 1.0913,
+          "steps": [
+            30,
+            36
+          ],
+          "stop": 0.0487
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.453,
+        "reach": 0.0298,
+        "lift": 0.0342,
+        "sway": 0.0235,
+        "stance": 0.591,
+        "blend": 1.168
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2249,
+        "ripple": 0.0601,
+        "tilt": 8.01,
+        "drift": 0.5146,
+        "min_v": 0.2119,
+        "stop": 0.0136
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2119,
+          "ripple": 0.0573,
+          "tilt": 8.01,
+          "drift": 0.216,
+          "steps": [
+            27,
+            31
+          ],
+          "stop": 0.0033
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2523,
+          "ripple": 0.0477,
+          "tilt": 2.74,
+          "drift": 0.0863,
+          "steps": [
+            33,
+            27
+          ],
+          "stop": 0.0059
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2167,
+          "ripple": 0.0504,
+          "tilt": 6.67,
+          "drift": 0.0487,
+          "steps": [
+            34,
+            34
+          ],
+          "stop": 0.0051
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2185,
+          "ripple": 0.0851,
+          "tilt": 6.85,
+          "drift": 0.5146,
+          "steps": [
+            29,
+            27
+          ],
+          "stop": 0.0136
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.269,
+        "reach": 0.0303,
+        "lift": 0.0231,
+        "sway": 0.0149,
+        "stance": 0.539,
+        "blend": 0.765
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1807,
+        "ripple": 0.0696,
+        "tilt": 6.48,
+        "drift": 0.0803,
+        "min_v": 0.1323,
+        "stop": 0.0373
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2101,
+          "ripple": 0.0591,
+          "tilt": 2.84,
+          "drift": 0.0056,
+          "steps": [
+            38,
+            34
+          ],
+          "stop": 0.0035
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2219,
+          "ripple": 0.0483,
+          "tilt": 2.88,
+          "drift": 0.0513,
+          "steps": [
+            40,
+            35
+          ],
+          "stop": 0.0037
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1323,
+          "ripple": 0.0912,
+          "tilt": 6.11,
+          "drift": 0.0803,
+          "steps": [
+            41,
+            39
+          ],
+          "stop": 0.0373
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1585,
+          "ripple": 0.0797,
+          "tilt": 6.48,
+          "drift": 0.031,
+          "steps": [
+            39,
+            38
+          ],
+          "stop": 0.0094
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.632,
+        "reach": 0.0521,
+        "lift": 0.026,
+        "sway": 0.0331,
+        "stance": 0.622,
+        "blend": 0.622
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2248,
+        "ripple": 0.0982,
+        "tilt": 11.38,
+        "drift": 0.5091,
+        "min_v": 0.2047,
+        "stop": 0.0167
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2398,
+          "ripple": 0.0701,
+          "tilt": 2.58,
+          "drift": 0.0665,
+          "steps": [
+            28,
+            28
+          ],
+          "stop": 0.008
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2402,
+          "ripple": 0.065,
+          "tilt": 2.56,
+          "drift": 0.0574,
+          "steps": [
+            30,
+            27
+          ],
+          "stop": 0.0091
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2147,
+          "ripple": 0.0986,
+          "tilt": 2.87,
+          "drift": 0.0164,
+          "steps": [
+            36,
+            34
+          ],
+          "stop": 0.0079
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2047,
+          "ripple": 0.1589,
+          "tilt": 11.38,
+          "drift": 0.5091,
+          "steps": [
+            18,
+            21
+          ],
+          "stop": 0.0167
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.315,
+        "reach": 0.0306,
+        "lift": 0.0183,
+        "sway": 0.0211,
+        "stance": 0.538,
+        "blend": 0.776
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.121,
+        "ripple": 0.0518,
+        "tilt": 4.49,
+        "drift": 0.0196,
+        "min_v": 0.1092,
+        "stop": 0.0041
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1211,
+          "ripple": 0.0463,
+          "tilt": 3.02,
+          "drift": 0.0107,
+          "steps": [
+            21,
+            27
+          ],
+          "stop": 0.0035
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1334,
+          "ripple": 0.0368,
+          "tilt": 2.84,
+          "drift": 0.0122,
+          "steps": [
+            29,
+            38
+          ],
+          "stop": 0.0039
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1092,
+          "ripple": 0.0583,
+          "tilt": 2.92,
+          "drift": 0.0024,
+          "steps": [
+            18,
+            32
+          ],
+          "stop": 0.0033
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1204,
+          "ripple": 0.0659,
+          "tilt": 4.49,
+          "drift": 0.0196,
+          "steps": [
+            25,
+            31
+          ],
+          "stop": 0.0041
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.257,
+        "reach": 0.0339,
+        "lift": 0.032,
+        "sway": 0.0164,
+        "stance": 0.646,
+        "blend": 0.7
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1093,
+        "ripple": 0.0402,
+        "tilt": 4.44,
+        "drift": 0.0375,
+        "min_v": 0.1043,
+        "stop": 0.0372
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.108,
+          "ripple": 0.0385,
+          "tilt": 3.26,
+          "drift": 0.0375,
+          "steps": [
+            26,
+            16
+          ],
+          "stop": 0.004
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1199,
+          "ripple": 0.0273,
+          "tilt": 2.98,
+          "drift": 0.0319,
+          "steps": [
+            17,
+            12
+          ],
+          "stop": 0.0018
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1043,
+          "ripple": 0.0418,
+          "tilt": 3.18,
+          "drift": 0.0271,
+          "steps": [
+            19,
+            14
+          ],
+          "stop": 0.007
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.105,
+          "ripple": 0.0533,
+          "tilt": 4.44,
+          "drift": 0.0316,
+          "steps": [
+            22,
+            19
+          ],
+          "stop": 0.0372
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.001,
+        "reach": 0.0276,
+        "lift": 0.0318,
+        "sway": 0.0337,
+        "stance": 0.613,
+        "blend": 0.817
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1536,
+        "ripple": 0.0725,
+        "tilt": 11.87,
+        "drift": 0.2357,
+        "min_v": 0.137,
+        "stop": 0.1494
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.137,
+          "ripple": 0.077,
+          "tilt": 11.22,
+          "drift": 0.1015,
+          "steps": [
+            20,
+            26
+          ],
+          "stop": 0.1494
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.191,
+          "ripple": 0.0457,
+          "tilt": 7.34,
+          "drift": 0.0091,
+          "steps": [
+            24,
+            25
+          ],
+          "stop": 0.0061
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1393,
+          "ripple": 0.0704,
+          "tilt": 10.44,
+          "drift": 0.1045,
+          "steps": [
+            21,
+            31
+          ],
+          "stop": 0.1047
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1469,
+          "ripple": 0.0969,
+          "tilt": 11.87,
+          "drift": 0.2357,
+          "steps": [
+            24,
+            26
+          ],
+          "stop": 0.1135
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.443,
+        "reach": 0.0375,
+        "lift": 0.0257,
+        "sway": 0.0342,
+        "stance": 0.54,
+        "blend": 1.057
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1775,
+        "ripple": 0.0602,
+        "tilt": 4.46,
+        "drift": 0.0253,
+        "min_v": 0.1661,
+        "stop": 0.0197
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1767,
+          "ripple": 0.0575,
+          "tilt": 2.97,
+          "drift": 0.0253,
+          "steps": [
+            12,
+            15
+          ],
+          "stop": 0.0059
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1868,
+          "ripple": 0.0436,
+          "tilt": 2.88,
+          "drift": 0.0154,
+          "steps": [
+            12,
+            16
+          ],
+          "stop": 0.0094
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1661,
+          "ripple": 0.067,
+          "tilt": 3.03,
+          "drift": 0.0096,
+          "steps": [
+            11,
+            18
+          ],
+          "stop": 0.0066
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1803,
+          "ripple": 0.0729,
+          "tilt": 4.46,
+          "drift": 0.0032,
+          "steps": [
+            11,
+            20
+          ],
+          "stop": 0.0197
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.419,
+        "reach": 0.0542,
+        "lift": 0.0235,
+        "sway": 0.0143,
+        "stance": 0.503,
+        "blend": 1.181
+      },
+      "stats": {
+        "count": 4,
+        "falls": 1,
+        "v": 0.4096,
+        "ripple": 0.0855,
+        "tilt": 50.67,
+        "drift": 0.1487,
+        "min_v": 0.3324,
+        "stop": 0.7039
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.4631,
+          "ripple": 0.0758,
+          "tilt": 3.53,
+          "drift": 0.1076,
+          "steps": [
+            43,
+            38
+          ],
+          "stop": 0.0091
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.4701,
+          "ripple": 0.0637,
+          "tilt": 3.98,
+          "drift": 0.0999,
+          "steps": [
+            51,
+            51
+          ],
+          "stop": 0.0127
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3728,
+          "ripple": 0.1082,
+          "tilt": 7.72,
+          "drift": 0.14,
+          "steps": [
+            65,
+            58
+          ],
+          "stop": 0.0097
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": true,
+          "v": 0.3324,
+          "ripple": 0.0943,
+          "tilt": 50.67,
+          "drift": 0.1487,
+          "steps": [
+            28,
+            29
+          ],
+          "stop": 0.7039
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.663,
+        "reach": 0.0272,
+        "lift": 0.0272,
+        "sway": 0.0202,
+        "stance": 0.608,
+        "blend": 0.821
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1278,
+        "ripple": 0.0436,
+        "tilt": 3.95,
+        "drift": 0.0342,
+        "min_v": 0.1217,
+        "stop": 0.0088
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1261,
+          "ripple": 0.0428,
+          "tilt": 2.84,
+          "drift": 0.0143,
+          "steps": [
+            14,
+            13
+          ],
+          "stop": 0.0052
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1364,
+          "ripple": 0.0343,
+          "tilt": 2.82,
+          "drift": 0.0294,
+          "steps": [
+            17,
+            20
+          ],
+          "stop": 0.0083
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1217,
+          "ripple": 0.0465,
+          "tilt": 2.78,
+          "drift": 0.0108,
+          "steps": [
+            19,
+            17
+          ],
+          "stop": 0.0061
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1271,
+          "ripple": 0.0508,
+          "tilt": 3.95,
+          "drift": 0.0342,
+          "steps": [
+            15,
+            15
+          ],
+          "stop": 0.0088
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.6,
+        "reach": 0.0469,
+        "lift": 0.038,
+        "sway": 0.0334,
+        "stance": 0.538,
+        "blend": 1.25
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2575,
+        "ripple": 0.0726,
+        "tilt": 5.53,
+        "drift": 0.0575,
+        "min_v": 0.247,
+        "stop": 0.0126
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2581,
+          "ripple": 0.0627,
+          "tilt": 3.31,
+          "drift": 0.02,
+          "steps": [
+            13,
+            15
+          ],
+          "stop": 0.011
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2683,
+          "ripple": 0.0614,
+          "tilt": 3.4,
+          "drift": 0.0002,
+          "steps": [
+            20,
+            24
+          ],
+          "stop": 0.0126
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.247,
+          "ripple": 0.0783,
+          "tilt": 4.38,
+          "drift": 0.0575,
+          "steps": [
+            15,
+            19
+          ],
+          "stop": 0.0107
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2565,
+          "ripple": 0.0878,
+          "tilt": 5.53,
+          "drift": 0.0039,
+          "steps": [
+            19,
+            18
+          ],
+          "stop": 0.0091
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.517,
+        "reach": 0.0414,
+        "lift": 0.0169,
+        "sway": 0.0235,
+        "stance": 0.551,
+        "blend": 0.943
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.189,
+        "ripple": 0.0736,
+        "tilt": 4.98,
+        "drift": 0.134,
+        "min_v": 0.1694,
+        "stop": 0.0094
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1936,
+          "ripple": 0.0618,
+          "tilt": 2.86,
+          "drift": 0.0558,
+          "steps": [
+            32,
+            34
+          ],
+          "stop": 0.0066
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2043,
+          "ripple": 0.0532,
+          "tilt": 2.84,
+          "drift": 0.104,
+          "steps": [
+            34,
+            36
+          ],
+          "stop": 0.0094
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1694,
+          "ripple": 0.0912,
+          "tilt": 3.11,
+          "drift": 0.0037,
+          "steps": [
+            34,
+            42
+          ],
+          "stop": 0.006
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1886,
+          "ripple": 0.0882,
+          "tilt": 4.98,
+          "drift": 0.134,
+          "steps": [
+            32,
+            33
+          ],
+          "stop": 0.009
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.367,
+        "reach": 0.0351,
+        "lift": 0.0246,
+        "sway": 0.0171,
+        "stance": 0.658,
+        "blend": 0.557
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2108,
+        "ripple": 0.0644,
+        "tilt": 5.13,
+        "drift": 0.0128,
+        "min_v": 0.1987,
+        "stop": 0.044
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.211,
+          "ripple": 0.0599,
+          "tilt": 2.34,
+          "drift": 0.0031,
+          "steps": [
+            29,
+            26
+          ],
+          "stop": 0.0013
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.219,
+          "ripple": 0.05,
+          "tilt": 2.13,
+          "drift": 0.0128,
+          "steps": [
+            41,
+            39
+          ],
+          "stop": 0.0066
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1987,
+          "ripple": 0.0707,
+          "tilt": 2.61,
+          "drift": 0.0083,
+          "steps": [
+            40,
+            32
+          ],
+          "stop": 0.0015
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2146,
+          "ripple": 0.0772,
+          "tilt": 5.13,
+          "drift": 0.0027,
+          "steps": [
+            30,
+            30
+          ],
+          "stop": 0.044
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.798,
+        "reach": 0.045,
+        "lift": 0.0354,
+        "sway": 0.024,
+        "stance": 0.624,
+        "blend": 0.591
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2266,
+        "ripple": 0.0724,
+        "tilt": 4.47,
+        "drift": 0.0604,
+        "min_v": 0.2175,
+        "stop": 0.0129
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2289,
+          "ripple": 0.069,
+          "tilt": 2.81,
+          "drift": 0.005,
+          "steps": [
+            22,
+            22
+          ],
+          "stop": 0.0037
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2355,
+          "ripple": 0.0594,
+          "tilt": 2.88,
+          "drift": 0.0604,
+          "steps": [
+            31,
+            29
+          ],
+          "stop": 0.0083
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2175,
+          "ripple": 0.0835,
+          "tilt": 2.92,
+          "drift": 0.0227,
+          "steps": [
+            21,
+            23
+          ],
+          "stop": 0.0043
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2247,
+          "ripple": 0.0776,
+          "tilt": 4.47,
+          "drift": 0.04,
+          "steps": [
+            19,
+            23
+          ],
+          "stop": 0.0129
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.812,
+        "reach": 0.0403,
+        "lift": 0.0352,
+        "sway": 0.0252,
+        "stance": 0.617,
+        "blend": 0.612
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2084,
+        "ripple": 0.0666,
+        "tilt": 4.32,
+        "drift": 0.1527,
+        "min_v": 0.2024,
+        "stop": 0.031
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2112,
+          "ripple": 0.0616,
+          "tilt": 2.76,
+          "drift": 0.0073,
+          "steps": [
+            20,
+            25
+          ],
+          "stop": 0.0082
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2165,
+          "ripple": 0.0558,
+          "tilt": 2.82,
+          "drift": 0.0566,
+          "steps": [
+            23,
+            30
+          ],
+          "stop": 0.0026
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2033,
+          "ripple": 0.0724,
+          "tilt": 2.72,
+          "drift": 0.001,
+          "steps": [
+            18,
+            18
+          ],
+          "stop": 0.0064
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2024,
+          "ripple": 0.0767,
+          "tilt": 4.32,
+          "drift": 0.1527,
+          "steps": [
+            24,
+            23
+          ],
+          "stop": 0.031
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.316,
+        "reach": 0.0336,
+        "lift": 0.0356,
+        "sway": 0.0143,
+        "stance": 0.629,
+        "blend": 1.139
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.1202,
+        "ripple": 0.0423,
+        "tilt": 4.61,
+        "drift": 0.0467,
+        "min_v": 0.1149,
+        "stop": 0.1051
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1182,
+          "ripple": 0.0408,
+          "tilt": 3.88,
+          "drift": 0.0467,
+          "steps": [
+            20,
+            15
+          ],
+          "stop": 0.0407
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1293,
+          "ripple": 0.0303,
+          "tilt": 3.33,
+          "drift": 0.0012,
+          "steps": [
+            18,
+            14
+          ],
+          "stop": 0.0079
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1149,
+          "ripple": 0.0438,
+          "tilt": 3.53,
+          "drift": 0.0426,
+          "steps": [
+            12,
+            15
+          ],
+          "stop": 0.0184
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1183,
+          "ripple": 0.0545,
+          "tilt": 4.61,
+          "drift": 0.0212,
+          "steps": [
+            20,
+            19
+          ],
+          "stop": 0.1051
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.115,
+        "reach": 0.0443,
+        "lift": 0.0293,
+        "sway": 0.0252,
+        "stance": 0.49,
+        "blend": 0.927
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.2464,
+        "ripple": 0.1237,
+        "tilt": 10.12,
+        "drift": 1.3899,
+        "min_v": 0.1438,
+        "stop": 0.0449
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2459,
+          "ripple": 0.1249,
+          "tilt": 9.24,
+          "drift": 0.6084,
+          "steps": [
+            43,
+            44
+          ],
+          "stop": 0.0385
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.3597,
+          "ripple": 0.07,
+          "tilt": 3.59,
+          "drift": 0.0453,
+          "steps": [
+            40,
+            37
+          ],
+          "stop": 0.0019
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2363,
+          "ripple": 0.11,
+          "tilt": 9.12,
+          "drift": 0.1608,
+          "steps": [
+            54,
+            47
+          ],
+          "stop": 0.0449
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1438,
+          "ripple": 0.1899,
+          "tilt": 10.12,
+          "drift": 1.3899,
+          "steps": [
+            37,
+            43
+          ],
+          "stop": 0.0101
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 2.422,
+        "reach": 0.0297,
+        "lift": 0.0214,
+        "sway": 0.0239,
+        "stance": 0.64,
+        "blend": 0.709
+      },
+      "stats": {
+        "count": 4,
+        "falls": 0,
+        "v": 0.188,
+        "ripple": 0.0845,
+        "tilt": 8.26,
+        "drift": 0.242,
+        "min_v": 0.1718,
+        "stop": 0.0271
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1718,
+          "ripple": 0.0938,
+          "tilt": 8.03,
+          "drift": 0.242,
+          "steps": [
+            38,
+            34
+          ],
+          "stop": 0.0271
+        },
+        {
+          "terrain": "tron",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1937,
+          "ripple": 0.0438,
+          "tilt": 2.22,
+          "drift": 0.0612,
+          "steps": [
+            48,
+            36
+          ],
+          "stop": 0.0072
+        },
+        {
+          "terrain": "doc",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.1759,
+          "ripple": 0.0882,
+          "tilt": 8.26,
+          "drift": 0.1888,
+          "steps": [
+            42,
+            31
+          ],
+          "stop": 0.0088
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 83751,
+          "fall": false,
+          "v": 0.2107,
+          "ripple": 0.1123,
+          "tilt": 6.76,
+          "drift": 0.1368,
+          "steps": [
+            24,
+            23
+          ],
+          "stop": 0.0177
+        }
+      ]
+    }
+  ],
+  "baseline_validation": [
+    {
+      "terrain": "phang",
+      "seed": 224958,
+      "fall": false,
+      "v": 0.122,
+      "ripple": 0.0433,
+      "tilt": 2.4,
+      "drift": 0.0197,
+      "steps": [
+        25,
+        24
+      ],
+      "stop": 0.0016
+    },
+    {
+      "terrain": "tron",
+      "seed": 224958,
+      "fall": false,
+      "v": 0.1333,
+      "ripple": 0.0351,
+      "tilt": 2.32,
+      "drift": 0.0343,
+      "steps": [
+        22,
+        29
+      ],
+      "stop": 0.0025
+    },
+    {
+      "terrain": "doc",
+      "seed": 224958,
+      "fall": false,
+      "v": 0.1186,
+      "ripple": 0.0482,
+      "tilt": 2.3,
+      "drift": 0.0123,
+      "steps": [
+        18,
+        19
+      ],
+      "stop": 0.0013
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 224958,
+      "fall": false,
+      "v": 0.1194,
+      "ripple": 0.0599,
+      "tilt": 3.67,
+      "drift": 0.0083,
+      "steps": [
+        13,
+        24
+      ],
+      "stop": 0.0032
+    },
+    {
+      "terrain": "phang",
+      "seed": 396527,
+      "fall": false,
+      "v": 0.1204,
+      "ripple": 0.0447,
+      "tilt": 2.42,
+      "drift": 0.0172,
+      "steps": [
+        13,
+        22
+      ],
+      "stop": 0.0017
+    },
+    {
+      "terrain": "tron",
+      "seed": 396527,
+      "fall": false,
+      "v": 0.1334,
+      "ripple": 0.0355,
+      "tilt": 2.37,
+      "drift": 0.035,
+      "steps": [
+        24,
+        28
+      ],
+      "stop": 0.0024
+    },
+    {
+      "terrain": "doc",
+      "seed": 396527,
+      "fall": false,
+      "v": 0.1143,
+      "ripple": 0.0531,
+      "tilt": 2.33,
+      "drift": 0.0087,
+      "steps": [
+        19,
+        21
+      ],
+      "stop": 0.0018
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 396527,
+      "fall": false,
+      "v": 0.1183,
+      "ripple": 0.0597,
+      "tilt": 4.39,
+      "drift": 0.0074,
+      "steps": [
+        15,
+        23
+      ],
+      "stop": 0.0063
+    }
+  ],
+  "validation": [
+    {
+      "gait": {
+        "freq": 2.028,
+        "reach": 0.0305,
+        "lift": 0.0166,
+        "sway": 0.0176,
+        "stance": 0.651,
+        "blend": 1.216
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 224958,
+          "fall": false,
+          "v": 0.1584,
+          "ripple": 0.0473,
+          "tilt": 2.07,
+          "drift": 0.03,
+          "steps": [
+            34,
+            34
+          ],
+          "stop": 0.0056
+        },
+        {
+          "terrain": "tron",
+          "seed": 224958,
+          "fall": false,
+          "v": 0.1652,
+          "ripple": 0.0405,
+          "tilt": 2.0,
+          "drift": 0.0198,
+          "steps": [
+            34,
+            32
+          ],
+          "stop": 0.0072
+        },
+        {
+          "terrain": "doc",
+          "seed": 224958,
+          "fall": false,
+          "v": 0.1516,
+          "ripple": 0.0526,
+          "tilt": 2.09,
+          "drift": 0.0157,
+          "steps": [
+            35,
+            34
+          ],
+          "stop": 0.0062
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 224958,
+          "fall": false,
+          "v": 0.1548,
+          "ripple": 0.0519,
+          "tilt": 3.26,
+          "drift": 0.0525,
+          "steps": [
+            33,
+            27
+          ],
+          "stop": 0.0108
+        },
+        {
+          "terrain": "phang",
+          "seed": 396527,
+          "fall": false,
+          "v": 0.1568,
+          "ripple": 0.0472,
+          "tilt": 2.07,
+          "drift": 0.0308,
+          "steps": [
+            29,
+            36
+          ],
+          "stop": 0.0057
+        },
+        {
+          "terrain": "tron",
+          "seed": 396527,
+          "fall": false,
+          "v": 0.1671,
+          "ripple": 0.0415,
+          "tilt": 2.02,
+          "drift": 0.0246,
+          "steps": [
+            34,
+            35
+          ],
+          "stop": 0.0065
+        },
+        {
+          "terrain": "doc",
+          "seed": 396527,
+          "fall": false,
+          "v": 0.1469,
+          "ripple": 0.0557,
+          "tilt": 2.1,
+          "drift": 0.0134,
+          "steps": [
+            31,
+            33
+          ],
+          "stop": 0.006
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 396527,
+          "fall": false,
+          "v": 0.1507,
+          "ripple": 0.0521,
+          "tilt": 4.1,
+          "drift": 0.0458,
+          "steps": [
+            29,
+            32
+          ],
+          "stop": 0.0057
+        }
+      ]
+    },
+    {
+      "gait": {
+        "freq": 1.421,
+        "reach": 0.0365,
+        "lift": 0.0347,
+        "sway": 0.0201,
+        "stance": 0.635,
+        "blend": 1.008
+      },
+      "rows": [
+        {
+          "terrain": "phang",
+          "seed": 224958,
+          "fall": false,
+          "v": 0.1439,
+          "ripple": 0.0388,
+          "tilt": 2.83,
+          "drift": 0.031,
+          "steps": [
+            15,
+            16
+          ],
+          "stop": 0.0024
+        },
+        {
+          "terrain": "tron",
+          "seed": 224958,
+          "fall": false,
+          "v": 0.1511,
+          "ripple": 0.0354,
+          "tilt": 2.87,
+          "drift": 0.031,
+          "steps": [
+            11,
+            12
+          ],
+          "stop": 0.0051
+        },
+        {
+          "terrain": "doc",
+          "seed": 224958,
+          "fall": false,
+          "v": 0.1409,
+          "ripple": 0.0426,
+          "tilt": 2.72,
+          "drift": 0.0166,
+          "steps": [
+            13,
+            17
+          ],
+          "stop": 0.0028
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 224958,
+          "fall": false,
+          "v": 0.1422,
+          "ripple": 0.0582,
+          "tilt": 3.98,
+          "drift": 0.0661,
+          "steps": [
+            15,
+            14
+          ],
+          "stop": 0.005
+        },
+        {
+          "terrain": "phang",
+          "seed": 396527,
+          "fall": false,
+          "v": 0.1425,
+          "ripple": 0.0402,
+          "tilt": 2.98,
+          "drift": 0.0282,
+          "steps": [
+            12,
+            13
+          ],
+          "stop": 0.0014
+        },
+        {
+          "terrain": "tron",
+          "seed": 396527,
+          "fall": false,
+          "v": 0.1514,
+          "ripple": 0.0351,
+          "tilt": 2.89,
+          "drift": 0.0291,
+          "steps": [
+            14,
+            15
+          ],
+          "stop": 0.0052
+        },
+        {
+          "terrain": "doc",
+          "seed": 396527,
+          "fall": false,
+          "v": 0.1371,
+          "ripple": 0.0461,
+          "tilt": 2.81,
+          "drift": 0.0196,
+          "steps": [
+            14,
+            14
+          ],
+          "stop": 0.0019
+        },
+        {
+          "terrain": "nhap_nho",
+          "seed": 396527,
+          "fall": false,
+          "v": 0.1418,
+          "ripple": 0.0559,
+          "tilt": 4.5,
+          "drift": 0.0549,
+          "steps": [
+            16,
+            13
+          ],
+          "stop": 0.003
+        }
+      ]
+    }
+  ],
+  "accepted": {
+    "freq": 1.421,
+    "reach": 0.0365,
+    "lift": 0.0347,
+    "sway": 0.0201,
+    "stance": 0.635,
+    "blend": 1.008
+  }
+}

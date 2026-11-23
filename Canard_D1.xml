@@ -1,0 +1,276 @@
+<mujoco model="Canard D1">
+  <compiler angle="radian" autolimits="true" />
+  <option timestep=".002" integrator="implicitfast" iterations="40" />
+  <default>
+    <joint damping=".10" armature=".0025" />
+    <geom condim="3" friction=".85 .006 .0002" solref=".009 1" />
+  </default>
+  <statistic center="0 0 .23" extent="1" />
+  <visual>
+    <global offwidth="1200" offheight="900" />
+    <headlight ambient=".47 .47 .47" diffuse=".64 .64 .64" />
+  </visual>
+  <asset>
+    <texture name="sky" type="skybox" builtin="gradient" rgb1=".17 .27 .38" rgb2=".67 .78 .80" width="64" height="384" />
+    <texture name="tile" type="2d" builtin="checker" rgb1=".40 .47 .49" rgb2=".44 .50 .51" width="64" height="64" />
+    <material name="floor" texture="tile" texrepeat="2 2" texuniform="true" specular=".08" />
+    <mesh name="giap_than" vertex="-0.05712 -0.0714 -0.054 0.05712 -0.0714 -0.054 0.0798 -0.04872 -0.054 0.0798 0.04872 -0.054 0.05712 0.0714 -0.054 -0.05712 0.0714 -0.054 -0.0798 0.04872 -0.054 -0.0798 -0.04872 -0.054 -0.068 -0.085 -0.0351 0.068 -0.085 -0.0351 0.095 -0.058 -0.0351 0.095 0.058 -0.0351 0.068 0.085 -0.0351 -0.068 0.085 -0.0351 -0.095 0.058 -0.0351 -0.095 -0.058 -0.0351 -0.068 -0.085 0.0324 0.068 -0.085 0.0324 0.095 -0.058 0.0324 0.095 0.058 0.0324 0.068 0.085 0.0324 -0.068 0.085 0.0324 -0.095 0.058 0.0324 -0.095 -0.058 0.0324 -0.06188 -0.07735 0.054 0.06188 -0.07735 0.054 0.08645 -0.05278 0.054 0.08645 0.05278 0.054 0.06188 0.07735 0.054 -0.06188 0.07735 0.054 -0.08645 0.05278 0.054 -0.08645 -0.05278 0.054" />
+    <mesh name="nap" vertex="-0.04788 -0.06216 -0.014 0.04788 -0.06216 -0.014 0.06552 -0.04452 -0.014 0.06552 0.04452 -0.014 0.04788 0.06216 -0.014 -0.04788 0.06216 -0.014 -0.06552 0.04452 -0.014 -0.06552 -0.04452 -0.014 -0.057 -0.074 -0.0091 0.057 -0.074 -0.0091 0.078 -0.053 -0.0091 0.078 0.053 -0.0091 0.057 0.074 -0.0091 -0.057 0.074 -0.0091 -0.078 0.053 -0.0091 -0.078 -0.053 -0.0091 -0.057 -0.074 0.0084 0.057 -0.074 0.0084 0.078 -0.053 0.0084 0.078 0.053 0.0084 0.057 0.074 0.0084 -0.057 0.074 0.0084 -0.078 0.053 0.0084 -0.078 -0.053 0.0084 -0.05187 -0.06734 0.014 0.05187 -0.06734 0.014 0.07098 -0.04823 0.014 0.07098 0.04823 0.014 0.05187 0.06734 0.014 -0.05187 0.06734 0.014 -0.07098 0.04823 0.014 -0.07098 -0.04823 0.014" />
+    <mesh name="vo_dau" vertex="-0.03402 -0.09492 -0.0455 0.03402 -0.09492 -0.0455 0.04998 -0.07896 -0.0455 0.04998 0.07896 -0.0455 0.03402 0.09492 -0.0455 -0.03402 0.09492 -0.0455 -0.04998 0.07896 -0.0455 -0.04998 -0.07896 -0.0455 -0.0405 -0.113 -0.029575 0.0405 -0.113 -0.029575 0.0595 -0.094 -0.029575 0.0595 0.094 -0.029575 0.0405 0.113 -0.029575 -0.0405 0.113 -0.029575 -0.0595 0.094 -0.029575 -0.0595 -0.094 -0.029575 -0.0405 -0.113 0.0273 0.0405 -0.113 0.0273 0.0595 -0.094 0.0273 0.0595 0.094 0.0273 0.0405 0.113 0.0273 -0.0405 0.113 0.0273 -0.0595 0.094 0.0273 -0.0595 -0.094 0.0273 -0.036855 -0.10283 0.0455 0.036855 -0.10283 0.0455 0.054145 -0.08554 0.0455 0.054145 0.08554 0.0455 0.036855 0.10283 0.0455 -0.036855 0.10283 0.0455 -0.054145 0.08554 0.0455 -0.054145 -0.08554 0.0455" />
+    <mesh name="mu_xanh" vertex="-0.03192 -0.09114 -0.013 0.03192 -0.09114 -0.013 0.04788 -0.07518 -0.013 0.04788 0.07518 -0.013 0.03192 0.09114 -0.013 -0.03192 0.09114 -0.013 -0.04788 0.07518 -0.013 -0.04788 -0.07518 -0.013 -0.038 -0.1085 -0.00845 0.038 -0.1085 -0.00845 0.057 -0.0895 -0.00845 0.057 0.0895 -0.00845 0.038 0.1085 -0.00845 -0.038 0.1085 -0.00845 -0.057 0.0895 -0.00845 -0.057 -0.0895 -0.00845 -0.038 -0.1085 0.0078 0.038 -0.1085 0.0078 0.057 -0.0895 0.0078 0.057 0.0895 0.0078 0.038 0.1085 0.0078 -0.038 0.1085 0.0078 -0.057 0.0895 0.0078 -0.057 -0.0895 0.0078 -0.03458 -0.098735 0.013 0.03458 -0.098735 0.013 0.05187 -0.081445 0.013 0.05187 0.081445 0.013 0.03458 0.098735 0.013 -0.03458 0.098735 0.013 -0.05187 0.081445 0.013 -0.05187 -0.081445 0.013" />
+    <mesh name="giay_L" vertex="-0.05502 -0.03864 -0.0195 0.05502 -0.03864 -0.0195 0.07182 -0.02184 -0.0195 0.07182 0.02184 -0.0195 0.05502 0.03864 -0.0195 -0.05502 0.03864 -0.0195 -0.07182 0.02184 -0.0195 -0.07182 -0.02184 -0.0195 -0.0655 -0.046 -0.012675 0.0655 -0.046 -0.012675 0.0855 -0.026 -0.012675 0.0855 0.026 -0.012675 0.0655 0.046 -0.012675 -0.0655 0.046 -0.012675 -0.0855 0.026 -0.012675 -0.0855 -0.026 -0.012675 -0.0655 -0.046 0.0117 0.0655 -0.046 0.0117 0.0855 -0.026 0.0117 0.0855 0.026 0.0117 0.0655 0.046 0.0117 -0.0655 0.046 0.0117 -0.0855 0.026 0.0117 -0.0855 -0.026 0.0117 -0.059605 -0.04186 0.0195 0.059605 -0.04186 0.0195 0.077805 -0.02366 0.0195 0.077805 0.02366 0.0195 0.059605 0.04186 0.0195 -0.059605 0.04186 0.0195 -0.077805 0.02366 0.0195 -0.077805 -0.02366 0.0195" />
+    <mesh name="giay_R" vertex="-0.05502 -0.03864 -0.0195 0.05502 -0.03864 -0.0195 0.07182 -0.02184 -0.0195 0.07182 0.02184 -0.0195 0.05502 0.03864 -0.0195 -0.05502 0.03864 -0.0195 -0.07182 0.02184 -0.0195 -0.07182 -0.02184 -0.0195 -0.0655 -0.046 -0.012675 0.0655 -0.046 -0.012675 0.0855 -0.026 -0.012675 0.0855 0.026 -0.012675 0.0655 0.046 -0.012675 -0.0655 0.046 -0.012675 -0.0855 0.026 -0.012675 -0.0855 -0.026 -0.012675 -0.0655 -0.046 0.0117 0.0655 -0.046 0.0117 0.0855 -0.026 0.0117 0.0855 0.026 0.0117 0.0655 0.046 0.0117 -0.0655 0.046 0.0117 -0.0855 0.026 0.0117 -0.0855 -0.026 0.0117 -0.059605 -0.04186 0.0195 0.059605 -0.04186 0.0195 0.077805 -0.02366 0.0195 0.077805 0.02366 0.0195 0.059605 0.04186 0.0195 -0.059605 0.04186 0.0195 -0.077805 0.02366 0.0195 -0.077805 -0.02366 0.0195" />
+    <texture name="micro_tex_0" type="2d" file="microduck/color_0.png" />
+    <material name="micro_mat_0" specular="0.23" shininess="0.3" texture="micro_tex_0" rgba="1 1 1 1" />
+    <texture name="micro_tex_4" type="2d" file="microduck/color_4.png" />
+    <material name="micro_mat_1" specular="0.52" shininess="0.62" texture="micro_tex_4" rgba="1 1 1 1" />
+    <texture name="micro_tex_7" type="2d" file="microduck/color_7.png" />
+    <material name="micro_mat_2" specular="0.23" shininess="0.3" texture="micro_tex_7" rgba="1 1 1 1" />
+    <texture name="micro_tex_10" type="2d" file="microduck/color_10.png" />
+    <material name="micro_mat_3" specular="0.52" shininess="0.62" texture="micro_tex_10" rgba="1 1 1 1" />
+    <texture name="micro_tex_14" type="2d" file="microduck/color_14.png" />
+    <material name="micro_mat_4" specular="0.23" shininess="0.3" texture="micro_tex_14" rgba="1 1 1 1" />
+    <texture name="micro_tex_17" type="2d" file="microduck/color_17.png" />
+    <material name="micro_mat_5" specular="0.52" shininess="0.62" texture="micro_tex_17" rgba="1 1 1 1" />
+    <material name="micro_mat_6" specular="0.52" shininess="0.62" texture="micro_tex_17" rgba="1 1 1 1" />
+    <material name="micro_mat_7" specular="0.23" shininess="0.3" rgba="0.8 0.8 0.8 1.0" />
+    <texture name="micro_tex_20" type="2d" file="microduck/color_20.png" />
+    <material name="micro_mat_8" specular="0.23" shininess="0.3" texture="micro_tex_20" rgba="1 1 1 1" />
+    <texture name="micro_tex_24" type="2d" file="microduck/color_24.png" />
+    <material name="micro_mat_9" specular="0.23" shininess="0.3" texture="micro_tex_24" rgba="1 1 1 1" />
+    <texture name="micro_tex_27" type="2d" file="microduck/color_27.png" />
+    <material name="micro_mat_10" specular="0.23" shininess="0.3" texture="micro_tex_27" rgba="1 1 1 1" />
+    <mesh name="micro_chan_L_1" file="microduck/micro_chan_L_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_L_8" file="microduck/micro_chan_L_8.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_L_10" file="microduck/micro_chan_L_10.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_R_1" file="microduck/micro_chan_R_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_R_8" file="microduck/micro_chan_R_8.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_chan_R_10" file="microduck/micro_chan_R_10.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_co_0" file="microduck/micro_co_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_co_1" file="microduck/micro_co_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_co_2" file="microduck/micro_co_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_co_7" file="microduck/micro_co_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_0" file="microduck/micro_dau_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_1" file="microduck/micro_dau_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_2" file="microduck/micro_dau_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_3" file="microduck/micro_dau_3.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_4" file="microduck/micro_dau_4.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_5" file="microduck/micro_dau_5.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_6" file="microduck/micro_dau_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_7" file="microduck/micro_dau_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_8" file="microduck/micro_dau_8.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_9" file="microduck/micro_dau_9.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dau_10" file="microduck/micro_dau_10.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_L_0" file="microduck/micro_dui_L_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_L_2" file="microduck/micro_dui_L_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_L_6" file="microduck/micro_dui_L_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_L_7" file="microduck/micro_dui_L_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_R_0" file="microduck/micro_dui_R_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_R_2" file="microduck/micro_dui_R_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_R_6" file="microduck/micro_dui_R_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_dui_R_7" file="microduck/micro_dui_R_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_0" file="microduck/micro_ong_L_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_1" file="microduck/micro_ong_L_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_2" file="microduck/micro_ong_L_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_6" file="microduck/micro_ong_L_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_L_7" file="microduck/micro_ong_L_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_0" file="microduck/micro_ong_R_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_1" file="microduck/micro_ong_R_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_2" file="microduck/micro_ong_R_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_6" file="microduck/micro_ong_R_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_ong_R_7" file="microduck/micro_ong_R_7.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_0" file="microduck/micro_than_0.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_1" file="microduck/micro_than_1.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_2" file="microduck/micro_than_2.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_6" file="microduck/micro_than_6.msh" maxhullvert="32" inertia="shell" />
+    <mesh name="micro_than_7" file="microduck/micro_than_7.msh" maxhullvert="32" inertia="shell" />
+  </asset>
+  <worldbody>
+    <light pos="-1 -2 4" dir=".2 .4 -1" diffuse=".8 .8 .8" />
+    <geom type="plane" pos="0 0 0" size="0 0 .1" euler="0 -0 0" name="floor" material="floor" priority="2" friction="0.750688 0.005 0.0002" />
+    <geom type="box" pos="-1.5 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="-1.5 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="-1 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="-1 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="-0.5 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="-0.5 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="0 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="0 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="0.5 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="0.5 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="1 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="1 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="1.5 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="1.5 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="2 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="2 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="2.5 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="2.5 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="3 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="3 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="3.5 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="3.5 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="4 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="4 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="4.5 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="4.5 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="5 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="5 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="5.5 -0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <geom type="box" pos="5.5 0.72 0.011" size="0.11 0.009 0.002" rgba=".84 .89 .87 1" mass="0" contype="0" conaffinity="0" euler="0 -0 0" />
+    <body name="than" pos="0 0 0.278">
+      <freejoint name="goc" />
+      <geom type="box" pos="-0.009 0 0.015" size="0.081 0.074 0.043" rgba="0 0 0 0" mass="1.45" name="vo_than" />
+      <geom type="mesh" mesh="giap_than" pos="-0.009 0 0.025" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="mesh" mesh="nap" pos="-0.013 0 0.077" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="-0.012 -0.085 0.04" size="0.046 0.003 0.011" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="-0.04 -0.089 0.039" size="0.005 0.002 0.007" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="-0.02 -0.089 0.039" size="0.005 0.002 0.007" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="0 -0.089 0.039" size="0.005 0.002 0.007" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="0.02 -0.089 0.039" size="0.005 0.002 0.007" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="-0.012 0.085 0.04" size="0.046 0.003 0.011" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="-0.04 0.089 0.039" size="0.005 0.002 0.007" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="-0.02 0.089 0.039" size="0.005 0.002 0.007" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="0 0.089 0.039" size="0.005 0.002 0.007" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <geom type="box" pos="0.02 0.089 0.039" size="0.005 0.002 0.007" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+      <body name="co" pos="0.003 0 0.078">
+        <joint name="xoay_co" axis="0 0 1" range="-0.85 0.85" />
+        <geom type="capsule" fromto="-0.018 0 0 0.013 0 0.07" size="0.016" rgba="0 0 0 0" mass="0.085" contype="0" conaffinity="0" />
+        <geom type="capsule" fromto="-0.024 -0.021 0.004 0.003 -0.028 0.069" size="0.006" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+        <geom type="capsule" fromto="-0.024 0.021 0.004 0.003 0.028 0.069" size="0.006" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+        <body name="dau" pos="0.013 0 0.068">
+          <joint name="gat_dau" axis="0 1 0" range="-0.4 0.4" />
+          <geom type="box" pos="0 0 0.001" size="0.048 0.093 0.033" rgba="0 0 0 0" mass=".27" name="kinh_dau" />
+          <geom type="mesh" mesh="vo_dau" pos="-0.003 0 0.004" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+          <geom type="mesh" mesh="mu_xanh" pos="-0.006 0 0.046" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+          <geom type="box" pos="0.059 0 0.003" size="0.006 0.09 0.028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+          <geom type="cylinder" pos="0.064 -0.056 0.005" size="0.035 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="0.069 -0.056 0.005" size="0.03 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="0.073 -0.056 0.005" size="0.022 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="0.077 -0.056 0.005" size="0.014 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="0.08 -0.056 0.005" size="0.006 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="-0.022 -0.111 0.005" size="0.02 0.005" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+          <geom type="capsule" fromto="-0.04 -0.082 0.048 -0.053 -0.098 0.118" size="0.0038" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+          <geom type="sphere" pos="-0.053 -0.098 0.118" size="0.0055" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+          <geom type="cylinder" pos="0.064 0.056 0.005" size="0.035 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="0.069 0.056 0.005" size="0.03 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="0.073 0.056 0.005" size="0.022 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="0.077 0.056 0.005" size="0.014 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="0.08 0.056 0.005" size="0.006 0.0028" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="1 0 0" />
+          <geom type="cylinder" pos="-0.022 0.111 0.005" size="0.02 0.005" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+          <geom type="capsule" fromto="-0.04 0.082 0.048 -0.053 0.098 0.145" size="0.0038" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+          <geom type="sphere" pos="-0.053 0.098 0.145" size="0.0055" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+          <geom type="mesh" mesh="micro_dau_0" material="micro_mat_0" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_1" material="micro_mat_1" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_2" material="micro_mat_2" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_3" material="micro_mat_3" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_4" material="micro_mat_4" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_5" material="micro_mat_5" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_6" material="micro_mat_6" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_7" material="micro_mat_7" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_8" material="micro_mat_8" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_9" material="micro_mat_9" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_dau_10" material="micro_mat_10" mass="0" contype="0" conaffinity="0" group="2" />
+        </body>
+        <geom type="mesh" mesh="micro_co_0" material="micro_mat_0" mass="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="micro_co_1" material="micro_mat_1" mass="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="micro_co_2" material="micro_mat_2" mass="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="micro_co_7" material="micro_mat_7" mass="0" contype="0" conaffinity="0" group="2" />
+      </body>
+      <body name="dui_L" pos="0 0.062 0">
+        <joint name="hong_nghieng_L" axis="1 0 0" range="-0.62 0.62" />
+        <joint name="hong_L" axis="0 1 0" range="-1.25 0.9" />
+        <geom type="capsule" fromto="0 0 0 0 0 -0.142" size="0.022" rgba="0 0 0 0" mass="0.21" contype="0" conaffinity="0" />
+        <geom type="capsule" fromto="0 0.023 -0.025 0 0.023 -0.115" size="0.011" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+        <geom type="cylinder" pos="0 0.012 0" size="0.037 0.023" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+        <body name="ong_L" pos="0 0 -0.142">
+          <joint name="goi_L" axis="0 1 0" range="0.005 1.95" />
+          <geom type="capsule" fromto="0 0 0 0 0 -0.142" size="0.017" rgba="0 0 0 0" mass="0.17" contype="0" conaffinity="0" />
+          <geom type="capsule" fromto="0.013 0.019 -0.017 0.013 0.019 -0.115" size="0.008" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+          <geom type="cylinder" pos="0 0 0" size="0.028 0.006" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+          <geom type="cylinder" pos="0 0.024 0" size="0.021 0.006" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+          <geom type="cylinder" pos="0 0.028 0" size="0.009 0.006" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+          <body name="chan_L" pos="0 0 -0.142">
+            <joint name="co_chan_L" axis="0 1 0" range="-1.3 1" />
+            <joint name="nghieng_chan_L" axis="1 0 0" range="-0.68 0.68" />
+            <geom type="box" pos="0.008 0 -0.012" size="0.089 0.046 0.012" rgba="0 0 0 0" mass=".19" name="de_L" />
+            <geom type="mesh" mesh="giay_L" pos="0.007 0 0.0005" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+            <geom type="box" pos="0.043 0 0.021" size="0.034 0.032 0.004" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+            <geom type="box" pos="-0.044 0 0.02" size="0.004 0.031 0.005" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+            <geom type="box" pos="-0.024 0 0.02" size="0.004 0.031 0.005" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+            <geom type="mesh" mesh="micro_chan_L_1" material="micro_mat_1" mass="0" contype="0" conaffinity="0" group="2" />
+            <geom type="mesh" mesh="micro_chan_L_8" material="micro_mat_8" mass="0" contype="0" conaffinity="0" group="2" />
+            <geom type="mesh" mesh="micro_chan_L_10" material="micro_mat_10" mass="0" contype="0" conaffinity="0" group="2" />
+          </body>
+          <geom type="mesh" mesh="micro_ong_L_0" material="micro_mat_0" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_ong_L_1" material="micro_mat_1" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_ong_L_2" material="micro_mat_2" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_ong_L_6" material="micro_mat_6" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_ong_L_7" material="micro_mat_7" mass="0" contype="0" conaffinity="0" group="2" />
+        </body>
+        <geom type="mesh" mesh="micro_dui_L_0" material="micro_mat_0" mass="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="micro_dui_L_2" material="micro_mat_2" mass="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="micro_dui_L_6" material="micro_mat_6" mass="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="micro_dui_L_7" material="micro_mat_7" mass="0" contype="0" conaffinity="0" group="2" />
+      </body>
+      <body name="dui_R" pos="0 -0.062 0">
+        <joint name="hong_nghieng_R" axis="1 0 0" range="-0.62 0.62" />
+        <joint name="hong_R" axis="0 1 0" range="-1.25 0.9" />
+        <geom type="capsule" fromto="0 0 0 0 0 -0.142" size="0.022" rgba="0 0 0 0" mass="0.21" contype="0" conaffinity="0" />
+        <geom type="capsule" fromto="0 -0.023 -0.025 0 -0.023 -0.115" size="0.011" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+        <geom type="cylinder" pos="0 -0.012 0" size="0.037 0.023" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+        <body name="ong_R" pos="0 0 -0.142">
+          <joint name="goi_R" axis="0 1 0" range="0.005 1.95" />
+          <geom type="capsule" fromto="0 0 0 0 0 -0.142" size="0.017" rgba="0 0 0 0" mass="0.17" contype="0" conaffinity="0" />
+          <geom type="capsule" fromto="0.013 -0.019 -0.017 0.013 -0.019 -0.115" size="0.008" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+          <geom type="cylinder" pos="0 0 0" size="0.028 0.006" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+          <geom type="cylinder" pos="0 -0.024 0" size="0.021 0.006" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+          <geom type="cylinder" pos="0 -0.028 0" size="0.009 0.006" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" zaxis="0 1 0" />
+          <body name="chan_R" pos="0 0 -0.142">
+            <joint name="co_chan_R" axis="0 1 0" range="-1.3 1" />
+            <joint name="nghieng_chan_R" axis="1 0 0" range="-0.68 0.68" />
+            <geom type="box" pos="0.008 0 -0.012" size="0.089 0.046 0.012" rgba="0 0 0 0" mass=".19" name="de_R" />
+            <geom type="mesh" mesh="giay_R" pos="0.007 0 0.0005" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+            <geom type="box" pos="0.043 0 0.021" size="0.034 0.032 0.004" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+            <geom type="box" pos="-0.044 0 0.02" size="0.004 0.031 0.005" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+            <geom type="box" pos="-0.024 0 0.02" size="0.004 0.031 0.005" rgba="0 0 0 0" mass="0" contype="0" conaffinity="0" />
+            <geom type="mesh" mesh="micro_chan_R_1" material="micro_mat_1" mass="0" contype="0" conaffinity="0" group="2" />
+            <geom type="mesh" mesh="micro_chan_R_8" material="micro_mat_8" mass="0" contype="0" conaffinity="0" group="2" />
+            <geom type="mesh" mesh="micro_chan_R_10" material="micro_mat_10" mass="0" contype="0" conaffinity="0" group="2" />
+          </body>
+          <geom type="mesh" mesh="micro_ong_R_0" material="micro_mat_0" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_ong_R_1" material="micro_mat_1" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_ong_R_2" material="micro_mat_2" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_ong_R_6" material="micro_mat_6" mass="0" contype="0" conaffinity="0" group="2" />
+          <geom type="mesh" mesh="micro_ong_R_7" material="micro_mat_7" mass="0" contype="0" conaffinity="0" group="2" />
+        </body>
+        <geom type="mesh" mesh="micro_dui_R_0" material="micro_mat_0" mass="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="micro_dui_R_2" material="micro_mat_2" mass="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="micro_dui_R_6" material="micro_mat_6" mass="0" contype="0" conaffinity="0" group="2" />
+        <geom type="mesh" mesh="micro_dui_R_7" material="micro_mat_7" mass="0" contype="0" conaffinity="0" group="2" />
+      </body>
+      <geom type="mesh" mesh="micro_than_0" material="micro_mat_0" mass="0" contype="0" conaffinity="0" group="2" />
+      <geom type="mesh" mesh="micro_than_1" material="micro_mat_1" mass="0" contype="0" conaffinity="0" group="2" />
+      <geom type="mesh" mesh="micro_than_2" material="micro_mat_2" mass="0" contype="0" conaffinity="0" group="2" />
+      <geom type="mesh" mesh="micro_than_6" material="micro_mat_6" mass="0" contype="0" conaffinity="0" group="2" />
+      <geom type="mesh" mesh="micro_than_7" material="micro_mat_7" mass="0" contype="0" conaffinity="0" group="2" />
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="hong_nghieng_L" joint="hong_nghieng_L" kp="70" kv="1.9" forcerange="-13 13" />
+    <position name="hong_L" joint="hong_L" kp="75" kv="1.9" forcerange="-13 13" />
+    <position name="goi_L" joint="goi_L" kp="70" kv="1.9" forcerange="-13 13" />
+    <position name="co_chan_L" joint="co_chan_L" kp="55" kv="1.9" forcerange="-13 13" />
+    <position name="nghieng_chan_L" joint="nghieng_chan_L" kp="50" kv="1.9" forcerange="-13 13" />
+    <position name="hong_nghieng_R" joint="hong_nghieng_R" kp="70" kv="1.9" forcerange="-13 13" />
+    <position name="hong_R" joint="hong_R" kp="75" kv="1.9" forcerange="-13 13" />
+    <position name="goi_R" joint="goi_R" kp="70" kv="1.9" forcerange="-13 13" />
+    <position name="co_chan_R" joint="co_chan_R" kp="55" kv="1.9" forcerange="-13 13" />
+    <position name="nghieng_chan_R" joint="nghieng_chan_R" kp="50" kv="1.9" forcerange="-13 13" />
+    <position name="xoay_co" joint="xoay_co" kp="6" kv=".34" forcerange="-1.4 1.4" />
+    <position name="gat_dau" joint="gat_dau" kp="6" kv=".34" forcerange="-1.4 1.4" />
+  </actuator>
+  <keyframe>
+    <key name="dung" qpos="0.0 0.0 0.269 1.0 0.0 0.0 0.0 0.0 0.0 0.0 -0.5150679224079802 1.0463956491758482 -0.531327726767868 0.0 0.0 -0.5150679224079802 1.0463956491758482 -0.531327726767868 0.0" ctrl="0.0 -0.5150679224079802 1.0463956491758482 -0.531327726767868 0.0 0.0 -0.5150679224079802 1.0463956491758482 -0.531327726767868 0.0 0.0 0.0" />
+  </keyframe>
+</mujoco>
