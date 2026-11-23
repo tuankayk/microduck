@@ -1,0 +1,1847 @@
+{
+  "model": "Microduck-GLB-v3",
+  "mode": "kinematic_reference_walk",
+  "states": 16,
+  "rows": [
+    {
+      "terrain": "phang",
+      "seed": 810001,
+      "peak_clearance_mm": 16.847,
+      "support_xy_change_mm_per_10ms": 1e-05,
+      "support_clearance_error_mm": 0.3005,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "phang",
+      "seed": 810193,
+      "peak_clearance_mm": 16.847,
+      "support_xy_change_mm_per_10ms": 1e-05,
+      "support_clearance_error_mm": 0.3005,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "phang",
+      "seed": 810377,
+      "peak_clearance_mm": 16.847,
+      "support_xy_change_mm_per_10ms": 1e-05,
+      "support_clearance_error_mm": 0.3005,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "phang",
+      "seed": 810451,
+      "peak_clearance_mm": 16.847,
+      "support_xy_change_mm_per_10ms": 1e-05,
+      "support_clearance_error_mm": 0.3005,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "tron",
+      "seed": 810001,
+      "peak_clearance_mm": 16.847,
+      "support_xy_change_mm_per_10ms": 1e-05,
+      "support_clearance_error_mm": 0.3005,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "tron",
+      "seed": 810193,
+      "peak_clearance_mm": 16.847,
+      "support_xy_change_mm_per_10ms": 1e-05,
+      "support_clearance_error_mm": 0.3005,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "tron",
+      "seed": 810377,
+      "peak_clearance_mm": 16.847,
+      "support_xy_change_mm_per_10ms": 1e-05,
+      "support_clearance_error_mm": 0.3005,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "tron",
+      "seed": 810451,
+      "peak_clearance_mm": 16.847,
+      "support_xy_change_mm_per_10ms": 1e-05,
+      "support_clearance_error_mm": 0.3005,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "doc",
+      "seed": 810001,
+      "peak_clearance_mm": 16.823,
+      "support_xy_change_mm_per_10ms": 1.2e-05,
+      "support_clearance_error_mm": 0.2777,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "doc",
+      "seed": 810193,
+      "peak_clearance_mm": 16.827,
+      "support_xy_change_mm_per_10ms": 1.1e-05,
+      "support_clearance_error_mm": 0.2817,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "doc",
+      "seed": 810377,
+      "peak_clearance_mm": 16.816,
+      "support_xy_change_mm_per_10ms": 1.2e-05,
+      "support_clearance_error_mm": 0.2707,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "doc",
+      "seed": 810451,
+      "peak_clearance_mm": 16.83,
+      "support_xy_change_mm_per_10ms": 1.2e-05,
+      "support_clearance_error_mm": 0.2839,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 810001,
+      "peak_clearance_mm": 17.027,
+      "support_xy_change_mm_per_10ms": 1.1e-05,
+      "support_clearance_error_mm": 0.3854,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 810193,
+      "peak_clearance_mm": 16.905,
+      "support_xy_change_mm_per_10ms": 1.1e-05,
+      "support_clearance_error_mm": 0.6256,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 810377,
+      "peak_clearance_mm": 16.891,
+      "support_xy_change_mm_per_10ms": 1.1e-05,
+      "support_clearance_error_mm": 0.7165,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    },
+    {
+      "terrain": "nhap_nho",
+      "seed": 810451,
+      "peak_clearance_mm": 16.864,
+      "support_xy_change_mm_per_10ms": 1.1e-05,
+      "support_clearance_error_mm": 0.5975,
+      "max_beyond_joint_limit_rad": 0.0,
+      "steps": 20,
+      "commands": [
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.15525,
+          "vx_m_s": 0.0,
+          "completed_steps": 5,
+          "gaze_rad": 0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "trai",
+          "dx_m": 0.020468,
+          "vx_m_s": 0.058045,
+          "completed_steps": 0,
+          "gaze_rad": 0.4653,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "phai",
+          "dx_m": 0.015152,
+          "vx_m_s": 0.021594,
+          "completed_steps": 1,
+          "gaze_rad": -0.4607,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "nhanh",
+          "dx_m": 0.231093,
+          "vx_m_s": 0.050592,
+          "completed_steps": 5,
+          "gaze_rad": -0.47,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "chao",
+          "dx_m": 0.08,
+          "vx_m_s": 0.050592,
+          "completed_steps": 2,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.2034
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.002288,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.091,
+          "vx_m_s": 0.0,
+          "completed_steps": 4,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.0,
+          "vx_m_s": 0.0,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "di",
+          "dx_m": 0.002806,
+          "vx_m_s": 0.022051,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "dung",
+          "dx_m": 0.014444,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0
+        },
+        {
+          "command": "lui",
+          "dx_m": -0.001155,
+          "vx_m_s": -0.012367,
+          "completed_steps": 0,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.002
+        },
+        {
+          "command": "dung",
+          "dx_m": -0.011845,
+          "vx_m_s": 0.0,
+          "completed_steps": 1,
+          "gaze_rad": -0.0,
+          "nod_rad": 0.0066
+        }
+      ]
+    }
+  ]
+}

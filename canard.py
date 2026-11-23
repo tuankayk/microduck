@@ -8,6 +8,7 @@ import mujoco.viewer
 import numpy as np
 from design import HERE,TERRAINS
 from walker import Walker,DT
+from reference_walk import ReferenceWalker
 from learn import current,train,exam
 from voice import PROFILE,LABELS,load_profile,hear,enroll
 
@@ -19,11 +20,12 @@ def action(w,old,k):
     if k in LABELS: w.command(k)
     return old
 
-def play(terrain,seed):
-    w=Walker(terrain,seed)
-    gait=current()
+def play(terrain,seed,physics=False):
+    w = Walker(terrain, seed) if physics else ReferenceWalker(terrain, seed)
+    gait = current() if physics else None
     q=SimpleQueue()
     request=0.
+    print("Chế độ vật lý MuJoCo." if physics else "Dáng đi tham chiếu theo video.")
     pending=None
     listen_id=0
     profile=load_profile() if PROFILE.exists() else None
@@ -34,6 +36,7 @@ def play(terrain,seed):
         viewer.cam.elevation=-11
         viewer.cam.distance=.53
         tick=0
+        focus_xy = w.d.qpos[:2].copy()
         while viewer.is_running():
             start=time.perf_counter()
             while not q.empty():
@@ -48,6 +51,7 @@ def play(terrain,seed):
                     listen_id+=1
                     request=0.
                     w.reset()
+                    focus_xy[:] = w.d.qpos[:2]
                 elif key in KEYS:
                     listen_id+=1
                     request=action(w,request,KEYS[key])
@@ -74,7 +78,8 @@ def play(terrain,seed):
             w.step(gait,request)
             if w.fallen and not was_fallen: print("Robot đã ngã. Nhấn R để đặt lại.",flush=True)
             if tick%2==0:
-                viewer.cam.lookat[:]=(w.d.qpos[0]+.016,w.d.qpos[1],.126)
+                focus_xy += .08 * (w.d.qpos[:2] - focus_xy)
+                viewer.cam.lookat[:] = (focus_xy[0]+.016, focus_xy[1], .126)
                 viewer.sync()
             tick+=1
             time.sleep(max(0.,DT-(time.perf_counter()-start)))
@@ -86,10 +91,11 @@ def main():
     parser.add_argument("--seed",type=int)
     parser.add_argument("--thu",type=int,default=32)
     parser.add_argument("--wav",type=str)
+    parser.add_argument("--vat-ly",action="store_true",help="Chạy chế độ vật lý để thử thăng bằng và tiếp xúc.")
     a=parser.parse_args()
     seed=a.seed if a.seed is not None else int(np.random.SeedSequence().generate_state(1)[0])
     if seed<0 or a.thu<1: parser.error("Seed phải ≥ 0 và số lần thử phải ≥ 1.")
-    if a.mode=="chay": play(a.san,seed)
+    if a.mode=="chay": play(a.san,seed,a.vat_ly)
     elif a.mode=="hoc": train(seed,a.thu)
     elif a.mode=="thi": exam()
     elif a.mode=="giong": enroll()

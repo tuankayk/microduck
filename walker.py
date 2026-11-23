@@ -51,7 +51,7 @@ class Walker:
         self.leg_ids = [[self.m.actuator(name + side).id for name in LEG_CONTROLS] for side in SIDES]
         self.head_ids = [self.m.actuator(name).id for name in ("nghieng_co", "gat_dau", "xoay_co", "nghieng_dau")]
         self.leg_widths = [OFFSETS["dui_" + side][1] + OFFSETS["chan_" + side][1] for side in SIDES]
-        self.reset()
+        Walker.reset(self)
 
     def reset(self):
         mj.mj_resetData(self.m, self.d)
